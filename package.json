@@ -1,5 +1,5 @@
 {
-  "name": "First Paint Apps",
+  "name": "first-paint-apps",
   "version": "0.0.1",
   "config": {
     "name": "DSP.KIT",
@@ -14,7 +14,7 @@
     "start": "run-s clean && run-p 11ty watch:*",
     "serve": "eleventy --serve --incremental",
     "11ty": "eleventy --serve",
-    "build": "run-s clean build:* && eleventy",
+    "build": "run-s build:* && eleventy",
     "clean": "rm -rf www",
     "trash": "trash www/**/**.*",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
