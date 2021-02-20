@@ -1,6 +1,8 @@
 {% extends "base.njk" %}
 <!-- cover -->
-{% block cover %} {% include "partials/hero.njk" %} {% endblock %}
+{% block cover %} {% include "partials/hero.njk" %}
+<hr />
+{% include "partials/feature-section.njk" %} {% endblock %}
 <!-- content -->
 {% block content %}
 {{ super() }}
