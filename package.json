@@ -1,5 +1,5 @@
 {
-  "name": "@shawnsandy/11ty-dsp-kit",
+  "name": "First Paint App Started",
   "version": "0.0.1",
   "config": {
     "name": "DSP.KIT",
@@ -7,7 +7,7 @@
       ""
     ]
   },
-  "description": "A Quick and Easy way to publish your Adobe XD design systems packages to the Web",
+  "description": "First paint apps",
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shawn-sandy/11ty-dsp-kit.git"
+    "url": "git+https://github.com/shawn-sandy/first-paint-apps.git"
   },
   "keywords": [
     "Design",
@@ -39,9 +39,9 @@
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shawn-sandy/11ty-dsp-kit/issues"
+    "url": "https://github.com/shawn-sandy/first-paint-apps/issues"
   },
-  "homepage": "https://github.com/shawn-sandy/11ty-dsp-kit#readme",
+  "homepage": "https://github.com/shawn-sandy/first-paint-apps#readme",
   "dependencies": {
     "style-dictionary": "^2.10.2"
   },
