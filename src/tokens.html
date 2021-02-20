@@ -1,0 +1,23 @@
+---
+layout: page.njk
+title: "Color Tokens"
+---
+
+<!-- <h3>Color</h3> -->
+
+<div role="list" class="tokens">
+  {% for token in hlp.dsp.tokenType(tokens.entities, {"type": "color"}) %}
+  <div role="listitem">
+    <h4 id="{{token.name | slug}}">{{ token.name | capitalize }}</h4>
+    <div
+      class="tokens-swatch"
+      style="background-color: {{ hlp.dsp.tokenColor(token.value) }};"
+    ></div>
+    <p>{{ hlp.dsp.tokenColor(token.value) }}</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+      consectetur assumenda.
+    </p>
+  </div>
+  {% endfor %}
+</div>

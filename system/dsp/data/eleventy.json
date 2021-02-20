@@ -1,0 +1,25 @@
+{
+    "dsp_spec_version": "1.0",
+    "last_updated": "UTCDateTime",
+    "last_updated_by": "Author Name",
+    "entities": [
+        {
+            "class": "component",
+            "type": "page",
+            "tags": [],
+            "id": "eleventy-9d86c35771ba",
+            "related_entity_ids": [],
+            "snippets": {
+                "trigger": "",
+                "languages": {}
+            },
+            "name": "eleventy",
+            "ext-com_adobe-cclib": {
+                "source": "https://shared-assets.adobe.com/link/52cfb6f8-1b5d-4596-5457-f6b67077d033",
+                "id": "eleventy-8636-4799-8873-a887e279cfef",
+                "last_sync": "2020-11-21T18:29:37.820Z",
+                "sync": true
+            }
+        }
+    ]
+}

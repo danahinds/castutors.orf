@@ -1,0 +1,21 @@
+{
+  "title": "11ty.XD",
+  "url": "https://proideas.dev/",
+  "description": "",
+  "feed": {
+    "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://proideas.dev/"
+  },
+  "author": {
+    "name": "Shawn Sandy",
+    "email": "shawnsandy@proideas.dev"
+  },
+  "styles": [
+    "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap"
+  ],
+  "scripts": [
+
+  ]
+}

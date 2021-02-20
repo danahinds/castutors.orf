@@ -1,0 +1,352 @@
+// @use replace @import with @use
+// as - defines the namespace for your imports
+// with - override  default variables
+// 2/20/21::10:30
+@use "../system/dsp/dist/styledictionary/scss/variables.scss"as tokens;
+@use "@shawnsandy/first-paint/index.scss";
+//  ----
+$brand-blue: #1010b9;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  // min-width: 580px;
+
+
+  a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: $brand-blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    &+p {
+      margin-top: 1.5rem;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: 'Roboto',
+      sans-serif;
+    font-family: 'Roboto Slab',
+      serif;
+    font-weight: 500;
+  }
+
+
+  .brand-icon {
+    max-height: 2rem;
+  }
+
+  main {
+    min-height: 60vh;
+
+    npm article {
+      max-width: 75%;
+    }
+  }
+
+  blockquote {
+    border-left: tokens.$dark-gray solid 5px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: tokens.$ghost-white;
+    margin: 3rem 1.5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09);
+    border-radius: .5rem;
+
+  }
+
+  [aria-label=copyright] {
+    margin: 1.5rem 0;
+
+  }
+
+
+  nav[aria-label]:first-of-type {
+    a {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+
+      &:hover {
+
+        // color: tokens.$sky-blue;
+        text-decoration: none;
+        background-color: transparent;
+        height: 50% !important;
+        // border-radius: 99px;
+        border-bottom: $brand-blue solid 5px;
+      }
+
+      &[aria-label="Site logo"]:hover {
+        height: 100% !important;
+        // background-color: transparent;
+        border-bottom: none;
+        text-decoration: none;
+
+      }
+    }
+
+    section {
+
+      // padding: 0 2.5rem;
+      img {
+        height: 1.5rem;
+      }
+    }
+  }
+
+  header {
+    background-color: tokens.$midnight-blue;
+    background-image: url('../images/banner-hero.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: tokens.$white-smoke;
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+    padding: 3rem 0;
+    min-height: 350rem / 16;
+
+    h2 {
+      font-size: 4rem;
+    }
+
+
+    >section,
+    div {
+
+      max-width: 70vw;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    margin-bottom: 4rem;
+
+    [role*=button],
+    button {
+
+      font-size: 1.3rem;
+      // background-color: tokens.$ghost-white;
+      color: tokens.$dark-blue;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09) !important;
+      text-shadow: none;
+
+      &:hover {
+        text-decoration: none;
+        // background-color: darken(#ffffff, 15);
+      }
+    }
+
+  }
+
+  [aria-label=feature] {
+    p {
+      line-height: 1.8;
+    }
+
+    h3 {
+      // text-align: center;
+      font-size: 1.7rem;
+
+      [aria-hidden] {
+        display: block;
+        font-size: 2.5rem;
+        color: $brand-blue;
+        margin-bottom: 1.5rem;
+      }
+    }
+
+
+  }
+
+  img {
+    max-width: 100%;
+    // height: auto;
+  }
+
+  section [role=list] {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .tokens {
+    &-swatch {
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09) !important;
+      height: 100px;
+      margin-bottom: 1rem;
+      border-radius: .3rem;
+    }
+
+
+    [role=listitem] {
+      border: solid whitesmoke 1px;
+      margin-bottom: .7rem;
+      border-radius: .3rem;
+      margin-right: .5rem;
+      box-sizing: border-box;
+
+      &+[role=listitem] {}
+
+      &:hover {
+        border: solid whitesmoke 1px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09) !important;
+
+      }
+    }
+  }
+
+  .clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .fonts {
+    &-size {
+
+      padding: 2rem;
+      margin: 2rem 0;
+      border: solid whitesmoke 1px;
+      border-radius: .5rem;
+
+      &:hover {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09) !important;
+      }
+    }
+
+    p {
+      // text-align: center;
+    }
+  }
+
+  article {
+
+    aside {
+      &+aside {
+        margin-top: 3rem;
+      }
+    }
+
+    &+aside {
+      ul {
+        padding-left: 0rem;
+
+        li {
+
+          margin-top: 0rem;
+          padding: .5rem 0;
+          border-top: #F4F7F8 solid 1px;
+
+          &+li {
+            padding-top: .5rem;
+          }
+        }
+      }
+    }
+  }
+
+  footer[ role="contentinfo"] {
+    background-color: tokens.$midnight-blue;
+    font-size: 0.9rem;
+    padding: 3rem 0;
+
+    p {
+      text-align: left;
+      line-height: 1.5;
+      margin: 0 0 1rem;
+    }
+
+    section {
+
+      >p {
+        text-align: left;
+        padding: 1rem;
+        font-size: 0.95rem;
+
+      }
+
+      span {
+
+        >p {
+          text-align: center;
+        }
+
+        display: block;
+      }
+    }
+
+    li {
+      a {
+        // font-size: 1rem;
+        padding: 0;
+        color: tokens.$white;
+      }
+    }
+
+
+    h6 {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    h6+*,
+    h6+span {
+      margin-top: 1.5rem;
+      display: block;
+    }
+  }
+}
+
+
+header {
+  @extend header,
+  .fp-header;
+  min-height: 15rem;
+
+  .cover-page & {
+    min-height: 31.25rem;
+  }
+}
+
+footer {
+  @extend footer,
+  .fp-footer !optional;
+  color: #fff;
+}
+
+
+.html {
+  margin-top: 2rem;
+
+
+  pre[class*="language-"] {
+    border-radius: .3rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .09);
+
+  }
+}
+
+nav img {
+  height: 1.5rem;
+  max-height: 1.5rem;
+  min-height: 1.5rem;
+}

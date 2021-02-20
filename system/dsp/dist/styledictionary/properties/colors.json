@@ -1,0 +1,55 @@
+{
+  "color": {
+    "black": {
+      "value": "#000000ff",
+      "comment": "Dark color"
+    },
+    "dark-blue": {
+      "value": "#1C20A6ff"
+    },
+    "transparent": {
+      "value": "#FFFFFFff"
+    },
+    "sky-blue": {
+      "value": "#2A49FFff"
+    },
+    "midnight-blue": {
+      "value": "#1F2E48ff"
+    },
+    "light-gray": {
+      "value": "#F4F7F8ff"
+    },
+    "red-planet": {
+      "value": "#BF0000ff"
+    },
+    "lime-green": {
+      "value": "#CCD814ff"
+    },
+    "turf-green": {
+      "value": "#027005ff",
+      "comment": "Testing transparent values"
+    },
+    "sunset-orange": {
+      "value": "#FDB71Aff"
+    },
+    "smoke-gray": {
+      "value": "#53565Aff"
+    },
+    "white": {
+      "value": "#FFFFFFff"
+    },
+    "td-brand-carbon": {
+      "value": "#1F2024ff"
+    },
+    "dark-gray": {
+      "value": "#707070ff",
+      "comment": "Description"
+    },
+    "ghost-white": {
+      "value": "#F8F8FFff"
+    },
+    "white-smoke": {
+      "value": "#F5F5F5ff"
+    }
+  }
+}

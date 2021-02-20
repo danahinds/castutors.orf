@@ -1,0 +1,21 @@
+@use '@shawnsandy/first-paint/components.scss';
+
+// @include components.page-renderComponent($renderContent: true)
+@include components.button-links();
+@include components.nav-max-width();
+
+a[role=button]>span {
+  &:hover {
+    background-color: white;
+  }
+}
+
+element.style {}
+
+.fp-nav h1 a,
+.fp-nav [aria-label="brand name"] a,
+nav h1 a,
+nav [aria-label="brand name"] a {
+  font-size: 1.5rem;
+  padding: 0;
+}

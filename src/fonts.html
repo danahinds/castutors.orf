@@ -1,0 +1,31 @@
+---
+layout: page.njk
+title: "Font Tokens"
+scripts: []
+---
+
+<div class="fonts">
+  {% for fonts in hlp.dsp.sortBy(fonts.entities, 'name') %}
+  <!-- sort fonts -->
+  <h4>{{fonts.name | capitalize }}</h4>
+
+  <div id="{{fonts.name | slug}}">
+    <div class="fonts-size">
+      <p
+        class="clamp"
+        style="font-size: {{
+      hlp.dsp.fontFilterBy(fonts.tokens)}}px;"
+      >
+        Sample font size example
+      </p>
+    </div>
+    <p>
+      Family: {{ hlp.dsp.fontFilterBy(fonts.tokens, 'family')}} / Size: {{
+      hlp.dsp.fontFilterBy(fonts.tokens)}}px / Style: {{
+      hlp.dsp.fontFilterBy(fonts.tokens, 'weight')}}
+    </p>
+    <hr />
+  </div>
+  <!--  -->
+  {% endfor %}
+</div>

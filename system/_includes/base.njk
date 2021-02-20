@@ -1,0 +1,86 @@
+{% extends "_Layout.njk" %} {% block head %}
+
+<title>{{ settings.title }} | {{ title }}</title>
+<!-- settings style -->
+<link rel="stylesheet" href="icons/css/style.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+  rel="stylesheet"
+/>
+<script
+  src="https://kit.fontawesome.com/e2ffdf4c70.js"
+  crossorigin="anonymous"
+></script>
+{% for styles in settings.styles %}
+<link href="{{ styles }}" rel="stylesheet" />
+{% endfor %}
+<!-- custom stylesheets -->
+{% if stylesheets %} {% for style in stylesheets %}
+<link rel="stylesheet" href="{{ style }}" />
+{% endfor %} {% endif %}
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/elements.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css"
+/>
+{% endblock %}
+
+<!-- header -->
+{% block header %}
+<!-- nav -->
+{% include "partials/main-nav.njk" %} {% endblock %}
+<!-- cover -->
+{% block cover %} {% endblock %}
+<!-- content -->
+{% block content %}
+<main>
+  <section>
+    {{ content | safe }}
+  </section>
+  <aside>
+    <h5>Colors</h5>
+    <span>
+      <ul>
+        {% for token in hlp.dsp.tokenType(tokens.entities, {"type": "color"}) %}
+        <li>
+          <a href="/tokens#{{ token.name | slug }}">{{
+            token.name | capitalize
+          }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </span>
+
+    <hr />
+    <h5>Fonts</h5>
+    <span>
+      <ul>
+        {% for fonts in hlp.dsp.sortBy(fonts.entities, 'name')%}
+        <li>
+          <a href="/fonts#{{ fonts.name | slug }}">{{
+            fonts.name | capitalize
+          }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </span>
+    <hr />
+    <span>
+      <h5>Components</h5>
+      <ul>
+        {% for data in components.entities %}
+
+        <li>
+          <a href="/components#{{ data.name | slug }}">{{
+            data.name | capitalize
+          }}</a>
+        </li>
+
+        {% endfor %}
+      </ul>
+    </span>
+  </aside>
+</main>
+{% endblock %}

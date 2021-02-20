@@ -1,0 +1,309 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2020-12-12T18:31:18.391Z",
+  "entities": [
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "5eca93e6-041c-42b9-a4e7-fa7386a5743b",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "button",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "ad039b58-59ec-4edf-bcd1-6d4e79d3812d",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "f135d74b-9136-41c6-8596-45456216697b",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "button-pill",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "a3c55399-c147-4edd-a940-38709d1645e3",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "f50e73d0-cb04-44bd-ae72-3eb07d030c26",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Footer Attribution",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "1cfb864a-4458-4f0e-a08e-e1149bc84257",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "d7d45278-5bd1-4f1b-846f-2cbd76cf340f",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Footer Info",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "2f2fbc32-7cdd-43f1-908d-424b6247f40b",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "id": "19df3fee-8508-4f42-9572-032f90f710cf",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "form-select",
+        "languages": {
+          "html": "<div>\n  <label for=\"select\">Text Input Component</label>\n  <select id=\"select\">\n    <option value=\"\">Select</option>\n    <option value=\"\">Options</option>\n    <option value=\"\">Options</option>\n  </select>\n</div>"
+        }
+      },
+      "name": "form-select",
+      "tags": [],
+      "last_updated": "2020-11-21T19:48:44.872Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "8978daed-38e6-4306-99df-283584deb1ff",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "form-textarea",
+        "languages": {
+          "html": "<div>\n  <label for=\"textarea\">Textarea Component</label>\n  <textarea id=\"textarea\" cols=\"30\" rows=\"10\"></textarea>\n</div>"
+        }
+      },
+      "name": "form-textarea",
+      "tags": [],
+      "last_updated": "2020-11-21T19:55:59.439Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "631b6302-03d8-4450-a3c4-3ab4130697a5",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "grid",
+        "languages": {
+          "html": "<div role=\"list\">\n  <div role=\"listitem\">\n    <h3>Feature...</h3>\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consectetur assumenda, porro repudiandae\n    repellendus placeat iure officia inventore sint voluptas et blanditiis facilis voluptate quas accusamus itaque\n    ea, corporis odio.\n  </div>  \n</div>\n"
+        }
+      },
+      "name": "grid",
+      "tags": [],
+      "last_updated": "2020-11-21T19:59:47.021Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "0760572c-70f9-41fd-b892-d0f2e3878f91",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "grid-listitem",
+        "languages": {
+          "html": "<div role=\"listitem\">\n  <h3>Feature...</h3>\n  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consectetur assumenda, porro repudiandae\n  repellendus placeat iure officia inventore sint voluptas et blanditiis facilis voluptate quas accusamus itaque\n  ea, corporis odio.\n</div>  "
+        }
+      },
+      "name": "grid-listitem",
+      "tags": [],
+      "last_updated": "2020-11-21T20:01:22.600Z",
+      "last_updated_by": ""
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "1723d48c-4c82-4e0a-bf55-c15c1c291f92",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Hero",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "62c20453-7c09-491f-8133-1bcc1399715a",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "id": "4e881280-1c37-4ebf-bc31-e9447adc4143",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "input-checkbox",
+        "languages": {
+          "html": "<div>\n  <span>\n    <input id=\"checkbox\" type=\"checkbox\">\n    <label for=\"checkbox\"><em> Checkbox</em></label>\n  </span>\n</div>"
+        }
+      },
+      "name": "input-checkbox",
+      "tags": [],
+      "last_updated": "2020-11-21T19:49:59.027Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "01c06f04-0131-4543-91f6-fd857ff8c78c",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "input-email",
+        "languages": {
+          "html": "<div>\n  <label for=\"email-address\">Text Input Component</label>\n  <input type=\"email\" id=\"email-address\" placeholder=\"Text input placeholder\">\n</div>"
+        }
+      },
+      "name": "input-email",
+      "tags": [],
+      "last_updated": "2020-11-21T19:47:15.994Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "e4bf6856-302b-4515-a58e-9f17926b8c9f",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "input-html",
+        "languages": {
+          "html": "<div>\n  <span>\n    <input id=\"radio\" type=\"radio\" name=\"radio-button\">\n    <label for=\"radio\"><em> Radio</em></label>\n  </span>\n  <span>\n    <input id=\"radio-off\" type=\"radio\" name=\"radio-button\">\n    <label for=\"radio-off\"><em> Radio</em></label>\n  </span>\n</div>"
+        }
+      },
+      "name": "input-radio",
+      "tags": [],
+      "last_updated": "2020-11-21T19:53:07.884Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "db20b4ef-f145-463b-b15e-646073eb0f23",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "input-text",
+        "languages": {
+          "html": "<div>\n  <label for=\"input\">Text Input Component</label>\n  <input type=\"text\" id=\"input\" placeholder=\"Text input placeholder\">\n</div>"
+        }
+      },
+      "name": "input-text",
+      "tags": [],
+      "last_updated": "2020-11-21T19:57:28.441Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "1382b176-2f20-4110-bc61-1ce6f2bbcdac",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "unordered-list",
+        "languages": {
+          "html": "<ul>\n  <li>One</li>\n  <li>Two</li>\n  <li>Three</li>\n  <li>Four</li>\n  <li>Five</li>\n</ul>"
+        }
+      },
+      "name": "list",
+      "tags": [],
+      "last_updated": "2020-11-21T20:06:24.534Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "769fe6a5-6b7c-4e5d-8b5c-f0887247cdb4",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "list-ordered",
+        "languages": {
+          "html": "<ol>\n  <li>One</li>\n  <li>Two</li>\n  <li>Three</li>\n  <li>Four</li>\n  <li>Five</li>\n</ol>"
+        }
+      },
+      "name": "list-ordered",
+      "tags": [],
+      "last_updated": "2020-11-21T20:09:19.647Z",
+      "last_updated_by": ""
+    },
+    {
+      "id": "19cb2639-72ef-48fb-8ca7-56dc587451d9",
+      "class": "component",
+      "type": "page",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "list-unstyled-unordered",
+        "languages": {
+          "html": "<span>\n  <ul>\n    <li>One</li>\n    <li>Two</li>\n    <li>Three</li>\n    <li>Four</li>\n    <li>Five</li>\n  </ul>\n</span>"
+        }
+      },
+      "name": "list-unstyled-unordered",
+      "tags": [],
+      "last_updated": "2020-11-21T20:11:37.538Z",
+      "last_updated_by": ""
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "330f986e-ea35-4603-86a8-43260fc81005",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Navbar",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "5202336f-aa9e-424f-98b2-654cfa74137e",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "e2314b05-693e-4eff-856a-3bebf26becef",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {}
+      },
+      "name": "Navbar (default)",
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/5e4c4e2d-3b37-49ad-4df5-7127ad96b3d4",
+        "id": "eaab9aa3-6199-490b-8c60-76cee28bcc34",
+        "last_sync": "2020-12-09T13:11:01.501Z",
+        "sync": true
+      }
+    }
+  ]
+}

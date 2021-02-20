@@ -1,0 +1,15 @@
+---
+layout: "page.njk"
+title: "[Changelogs]"
+scripts: []
+stylesheets: []
+---
+
+{% for change in collections.changes %}
+<h4>
+  {{change.data.title}} : {{change.date.toDateString()}}
+  ({{change.date.toLocaleTimeString()}})
+</h4>
+<div>{{change.templateContent | safe}}</div>
+<hr />
+{% endfor %}

@@ -1,0 +1,11 @@
+---
+layout: page.njk
+title: "The Guide"
+scripts: []
+---
+
+{%- for doc in docs.entities %}
+<h3>{{ doc.name }}</h3>
+<p>{{ doc.description | md | safe }}</p>
+<hr />
+{% endfor -%}

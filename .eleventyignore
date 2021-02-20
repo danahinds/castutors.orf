@@ -1,0 +1,14 @@
+README.md
+**/**/README.md
+**/_drafts
+**/_partials
+**/dist
+scaffold
+dist
+www
+**/public
+node_modules/
+**/node_modules
+system/debug
+styledictionary/
+**/styledictionary

@@ -1,0 +1,17 @@
+{
+  "xd.lastPackage": "/C:/Users/shawn/DSP/11ty-dsp-kit/system/dsp",
+  // settings.json
+  "emmet.includeLanguages": {
+    "nunjucks": "html"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "autoprefixer.formatOnSave": true,
+  "javascript.format.semicolons": "remove",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "workbench.tree.indent": 4,
+  "xd.globalEditor": true
+}

@@ -1,0 +1,151 @@
+{
+  "font": {
+    "display-6": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-6": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "default": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "display-5": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "display-3": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "display-4": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "display-1": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-4": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "display-2": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-2": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-5": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-1": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    },
+    "fs-3": {
+      "family": {
+        "value": "Roboto"
+      },
+      "weight": {
+        "value": "Regular"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "display-6": {
+        "value": "105"
+      },
+      "fs-6": {
+        "value": "25"
+      },
+      "default": {
+        "value": "16"
+      },
+      "display-5": {
+        "value": "81"
+      },
+      "display-3": {
+        "value": "50"
+      },
+      "display-4": {
+        "value": "67"
+      },
+      "display-1": {
+        "value": "28"
+      },
+      "fs-4": {
+        "value": "18"
+      },
+      "display-2": {
+        "value": "37"
+      },
+      "fs-2": {
+        "value": "12"
+      },
+      "fs-5": {
+        "value": "22"
+      },
+      "fs-1": {
+        "value": "11"
+      },
+      "fs-3": {
+        "value": "14"
+      }
+    }
+  }
+}

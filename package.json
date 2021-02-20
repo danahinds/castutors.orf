@@ -1,0 +1,63 @@
+{
+  "name": "@shawnsandy/11ty-dsp-kit",
+  "version": "0.0.1",
+  "config": {
+    "name": "DSP.KIT",
+    "stylesheets": [
+      ""
+    ]
+  },
+  "description": "A Quick and Easy way to publish your Adobe XD design systems packages to the Web",
+  "main": "index.js",
+  "scripts": {
+    "startup": "run-p serve watch:*",
+    "start": "run-s clean && run-p 11ty watch:*",
+    "serve": "eleventy --serve --incremental",
+    "11ty": "eleventy --serve",
+    "build": "run-s clean build:* && eleventy",
+    "clean": "rm -rf www",
+    "trash": "trash www/**/**.*",
+    "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
+    "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
+    "build-parcel": "parcel build src/sass/styles.js --no-content-hash --out-dir src/styles/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawn-sandy/11ty-dsp-kit.git"
+  },
+  "keywords": [
+    "Design",
+    "System",
+    "11ty",
+    "UIKits"
+  ],
+  "files": [
+    "/**"
+  ],
+  "author": "Shawn Sandy",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawn-sandy/11ty-dsp-kit/issues"
+  },
+  "homepage": "https://github.com/shawn-sandy/11ty-dsp-kit#readme",
+  "dependencies": {
+    "style-dictionary": "^2.10.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-cache-assets": "^2.1.0",
+    "@11ty/eleventy-img": "^0.8.0",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@shawnsandy/first-paint": "^0.7.0",
+    "@shawnsandy/ideas": "^0.1.22",
+    "@shawnsandy/mix": "^0.10.12",
+    "html-minifier": "^4.0.0",
+    "lodash": "^4.17.20",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^1.12.4",
+    "sass": "^1.32.7",
+    "trash-cli": "^4.0.0"
+  }
+}

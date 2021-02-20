@@ -1,0 +1,61 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 12 Feb 2021 20:11:57 GMT
+ */
+
+export const Black = "#000000"; // Dark color
+export const DarkBlue = "#1c20a6";
+export const Transparent = "#ffffff";
+export const SkyBlue = "#2a49ff";
+export const MidnightBlue = "#1f2e48";
+export const LightGray = "#f4f7f8";
+export const RedPlanet = "#bf0000";
+export const LimeGreen = "#ccd814";
+export const TurfGreen = "#027005"; // Testing transparent values
+export const SunsetOrange = "#fdb71a";
+export const SmokeGray = "#53565a";
+export const White = "#ffffff";
+export const TdBrandCarbon = "#1f2024";
+export const DarkGray = "#707070"; // Description
+export const GhostWhite = "#f8f8ff";
+export const WhiteSmoke = "#f5f5f5";
+export const Display6Family = "Roboto";
+export const Display6Weight = "Regular";
+export const Fs6Family = "Roboto";
+export const Fs6Weight = "Regular";
+export const DefaultFamily = "Roboto";
+export const DefaultWeight = "Regular";
+export const Display5Family = "Roboto";
+export const Display5Weight = "Regular";
+export const Display3Family = "Roboto";
+export const Display3Weight = "Regular";
+export const Display4Family = "Roboto";
+export const Display4Weight = "Regular";
+export const Display1Family = "Roboto";
+export const Display1Weight = "Regular";
+export const Fs4Family = "Roboto";
+export const Fs4Weight = "Regular";
+export const Display2Family = "Roboto";
+export const Display2Weight = "Regular";
+export const Fs2Family = "Roboto";
+export const Fs2Weight = "Regular";
+export const Fs5Family = "Roboto";
+export const Fs5Weight = "Regular";
+export const Fs1Family = "Roboto";
+export const Fs1Weight = "Regular";
+export const Fs3Family = "Roboto";
+export const Fs3Weight = "Regular";
+export const Display6Size = "105rem";
+export const Fs6Size = "25rem";
+export const DefaultSize = "16rem";
+export const Display5Size = "81rem";
+export const Display3Size = "50rem";
+export const Display4Size = "67rem";
+export const Display1Size = "28rem";
+export const Fs4Size = "18rem";
+export const Display2Size = "37rem";
+export const Fs2Size = "12rem";
+export const Fs5Size = "22rem";
+export const Fs1Size = "11rem";
+export const Fs3Size = "14rem";
+export const Small = "20rem"; // Unit size small

@@ -1,0 +1,48 @@
+<svg id="Navbar" xmlns="http://www.w3.org/2000/svg" width="1544" height="48" viewBox="0 0 1544 48">
+  <text id="Title_TAG:H6_" data-name="Title [TAG:H6]" transform="translate(0 30)" fill="#3d3d3d" font-size="16" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">Mockup Company</tspan></text>
+  <g id="Tabs" transform="translate(575.244 3)">
+    <g id="Tab_Item_" data-name="Tab Item " transform="translate(156)">
+      <g id="Area">
+        <rect id="Placement_Area_STATE:DEFAULT_" data-name="Placement Area [STATE:DEFAULT]" width="42" height="42" transform="translate(-0.244)" fill="#fff" opacity="0"/>
+        <rect id="Bar_STATE:DEFAULT_" data-name="Bar [STATE:DEFAULT]" width="42" height="2" rx="1" transform="translate(-0.244 40)" fill="#3e3e3e" opacity="0"/>
+      </g>
+      <text id="Label" transform="translate(-0.244 27)" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="0" y="0">Solutions</tspan></text>
+    </g>
+    <g id="Tab_Item_2" data-name="Tab Item " transform="translate(253)">
+      <g id="Area-2" data-name="Area">
+        <rect id="Placement_Area_STATE:ACTIVE_" data-name="Placement Area [STATE:ACTIVE]" width="42" height="42" transform="translate(-0.244)" fill="#fff" opacity="0"/>
+        <rect id="Bar_STATE:ACTIVE_" data-name="Bar [STATE:ACTIVE]" width="42" height="2" rx="1" transform="translate(-0.244 40)" fill="#3e3e3e"/>
+      </g>
+      <text id="Label-2" data-name="Label" transform="translate(-0.244 27)" fill="#3d3d3d" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="0" y="0">About</tspan></text>
+    </g>
+    <g id="Tab_Item_3" data-name="Tab Item " transform="translate(324)">
+      <g id="Area-3" data-name="Area">
+        <rect id="Placement_Area_STATE:DEFAULT_2" data-name="Placement Area [STATE:DEFAULT]" width="42" height="42" transform="translate(-0.244)" fill="#fff" opacity="0"/>
+        <rect id="Bar_STATE:DEFAULT_2" data-name="Bar [STATE:DEFAULT]" width="42" height="2" rx="1" transform="translate(-0.244 40)" fill="#3e3e3e" opacity="0"/>
+      </g>
+      <text id="Label-3" data-name="Label" transform="translate(-0.244 27)" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="0" y="0">Pricing</tspan></text>
+    </g>
+    <g id="Tab_Item_4" data-name="Tab Item " transform="translate(71)">
+      <g id="Area-4" data-name="Area">
+        <rect id="Placement_Area_STATE:DEFAULT_3" data-name="Placement Area [STATE:DEFAULT]" width="42" height="42" transform="translate(-0.244)" fill="#fff" opacity="0"/>
+        <rect id="Bar_STATE:DEFAULT_3" data-name="Bar [STATE:DEFAULT]" width="42" height="2" rx="1" transform="translate(-0.244 40)" fill="#3e3e3e" opacity="0"/>
+      </g>
+      <text id="Label-4" data-name="Label" transform="translate(-0.244 27)" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="0" y="0">Product</tspan></text>
+    </g>
+    <g id="Tab_Item_5" data-name="Tab Item ">
+      <g id="Area-5" data-name="Area">
+        <rect id="Placement_Area_STATE:DEFAULT_4" data-name="Placement Area [STATE:DEFAULT]" width="42" height="42" transform="translate(-0.244)" fill="#fff" opacity="0"/>
+        <rect id="Bar_STATE:DEFAULT_4" data-name="Bar [STATE:DEFAULT]" width="42" height="2" rx="1" transform="translate(-0.244 40)" fill="#3e3e3e" opacity="0"/>
+      </g>
+      <text id="Label-5" data-name="Label" transform="translate(-0.244 27)" fill="#8b8b8b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="0" y="0">Home</tspan></text>
+    </g>
+  </g>
+  <g id="Button_" data-name="Button " transform="translate(1400)">
+    <rect id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE1_" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE1]" width="144" height="48" fill="#3c3c3c"/>
+    <text id="Label-6" data-name="Label" transform="translate(72 30)" fill="#fcfcfc" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="-44.552" y="0">Get Started</tspan></text>
+  </g>
+  <g id="Button_2" data-name="Button " transform="translate(1240)">
+    <rect id="Area_DISPLAY_ELEMENTS:Label_SIZE:MEDIUM_STATE:DEFAULT_STYLE:STYLE3_" data-name="Area [DISPLAY_ELEMENTS:Label][SIZE:MEDIUM][STATE:DEFAULT][STYLE:STYLE3]" width="144" height="48" fill="rgba(252,252,252,0)"/>
+    <text id="Label-7" data-name="Label" transform="translate(72 30)" fill="#3f3f3f" font-size="16" font-family="NotoSans-SemiBold, Noto Sans" font-weight="600"><tspan x="-23.832" y="0">Log in</tspan></text>
+  </g>
+</svg>
