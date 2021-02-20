@@ -27,10 +27,6 @@
 />
 {% endblock %}
 
-<!-- header -->
-{% block header %}
-<!-- nav -->
-{% include "partials/main-nav.njk" %} {% endblock %}
 <!-- cover -->
 {% block cover %} {% endblock %}
 <!-- content -->
@@ -39,48 +35,6 @@
   <section>
     {{ content | safe }}
   </section>
-  <aside>
-    <h5>Colors</h5>
-    <span>
-      <ul>
-        {% for token in hlp.dsp.tokenType(tokens.entities, {"type": "color"}) %}
-        <li>
-          <a href="/tokens#{{ token.name | slug }}">{{
-            token.name | capitalize
-          }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </span>
-
-    <hr />
-    <h5>Fonts</h5>
-    <span>
-      <ul>
-        {% for fonts in hlp.dsp.sortBy(fonts.entities, 'name')%}
-        <li>
-          <a href="/fonts#{{ fonts.name | slug }}">{{
-            fonts.name | capitalize
-          }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </span>
-    <hr />
-    <span>
-      <h5>Components</h5>
-      <ul>
-        {% for data in components.entities %}
-
-        <li>
-          <a href="/components#{{ data.name | slug }}">{{
-            data.name | capitalize
-          }}</a>
-        </li>
-
-        {% endfor %}
-      </ul>
-    </span>
-  </aside>
+  <aside>{% include "partials/sidebar.njk" %}</aside>
 </main>
 {% endblock %}
