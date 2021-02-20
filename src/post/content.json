@@ -1,0 +1,8 @@
+{
+  "layout": "landing.njk",
+  "title": "Content Page",
+  "tags": [
+    "content"
+  ],
+  "scripts": []
+}
