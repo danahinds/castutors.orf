@@ -4,10 +4,16 @@
       <a href="/" aria-label="Site logo"> Cover </a>
     </h1>
   </section>
+
+
+  {% set navPages = collections.all | eleventyNavigation %}
   <section>
-    <a href="/tokens" title="Color tokens">Color</a>
-    <a href="/fonts" title="Font Tokens">Fonts</a>
-    <a href="/components" title="View components">Components</a>
-    <a href="/docs" title="Documentation">Guide</a>
+  {%- for entry in navPages %}
+
+      <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+
+  {%- endfor %}
+
   </section>
+
 </nav>
