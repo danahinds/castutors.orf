@@ -1,5 +1,5 @@
 [build]
-  publish = "_site"
+  publish = "www"
   command = "eleventy"
 
 # REDIRECT and HEADERS examples
