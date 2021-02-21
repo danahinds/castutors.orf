@@ -12,28 +12,15 @@
     <aside>
       <!-- <h6 id="navigate">Navigate</h6> -->
       <span>
+         {% set navPages = collections.all | eleventyNavigation %}
         <ul>
+          {%- for entry in navPages %}
           <li>
-            <a href="/tokens" title="Color tokens">Color</a>
+            <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
           </li>
-          <li><a href="/fonts" title="Font Tokens">Fonts</a></li>
-          <li>
-            <a href="/components" title="View components">Components</a>
-          </li>
-          <li><a href="/docs">Guide</a></li>
-          <li><a href="/changelog">Changes</a></li>
-          <li>
-            <a href="{{ pkg.homepage }}" target="_blank" rel="noopener"
-              >Github</a
-            >
-          </li>
+          {%- endfor %}
         </ul>
       </span>
-    </aside>
-    <aside>
-      <p>
-        {{ pkg.description }}
-      </p>
     </aside>
   </section>
   <section>

@@ -4,8 +4,10 @@ const htmlmin = require("html-minifier")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const markdown = require("@shawnsandy/ideas/lib/markdown")
 const image = require("@11ty/eleventy-img")
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 
 module.exports = function (eleventyConfig) {
+
   eleventyConfig.setBrowserSyncConfig({
     notify: true,
     open: true,
@@ -63,22 +65,17 @@ module.exports = function (eleventyConfig) {
 
   /**
    * Plugin @shawnsandy/ideas
-   *
    */
 
   // eleventyConfig.addPlugin(require("@shawnsandy/ideas", {siteMap: ["**/*.njk", "apps/**/*.html"];})); // siteMap defines directory to include
 
   eleventyConfig.addPlugin(require("@shawnsandy/ideas/eleventy"))
-  //   eleventyConfig.addPlugin(require("./apps/ideas/eleventy"))
-  //   eleventyConfig.addPlugin(require("./apps/ideas/lib/markdown"))
 
   eleventyConfig.addPlugin(pluginRss)
   eleventyConfig.addPlugin(markdown)
 
-  eleventyConfig.addCollection("changes", function (collection) {
-    return collection.getFilteredByTag("changes").reverse()
-    // return collection.getAllSorted()
-  })
+  // navigation
+  eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
   return {
     dir: {
