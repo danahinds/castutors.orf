@@ -1,19 +1,18 @@
 <nav role="navigation" aria-label="Main navigation">
   <section>
-    <h1>
-      <a href="/" aria-label="Site logo"> Cover </a>
-    </h1>
+    <a href="/" aria-label="Site logo">
+        <img src="/images/dsp-kit-logo.svg" alt="DSP Kit" />
+      </a>
   </section>
 
 
   {% set navPages = collections.all | eleventyNavigation %}
-  <section>
+  <ul>
   {%- for entry in navPages %}
-
+    <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-
+    </li>
   {%- endfor %}
-
-  </section>
+  </ul>
 
 </nav>
