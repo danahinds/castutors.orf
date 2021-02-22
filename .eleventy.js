@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./system/dsp/assets", "www/assets/")
   eleventyConfig.addPassthroughCopy("./src/images", "./images/")
   eleventyConfig.addPassthroughCopy("./src/js/min", "www/js/")
+  eleventyConfig.addPassthroughCopy("./src/admin")
 
   // eleventy img
   //
