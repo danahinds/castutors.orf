@@ -1,13 +1,13 @@
 {
-  "name": "first-paint-uikit",
+  "name": "fp-pages",
   "version": "0.0.1",
   "config": {
-    "name": "DSP.KIT",
+    "name": "A UI toolkit for building web-apps using First Paint and Eleventy ",
     "stylesheets": [
       ""
     ]
   },
-  "description": "First paint apps",
+  "description": "FP Pages",
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
