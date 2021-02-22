@@ -1,4 +1,4 @@
-//from management
+// contact form
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
 const handleSubmit = (e) => {
