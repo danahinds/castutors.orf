@@ -19,7 +19,7 @@
     "trash": "trash www/**/**.*",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
     "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
-    "build:parcel": "parcel build src/js/*.js --no-content-hash --out-dir www/js",
+    "watch:parcel": "parcel build src/js/*.js --no-content-hash --out-dir src/js/min/",
     "watch:js": "parcel watch src/js/*.js --out-dir www/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
