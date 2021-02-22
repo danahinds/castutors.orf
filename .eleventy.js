@@ -33,6 +33,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css", "www/css/")
   eleventyConfig.addPassthroughCopy("./system/dsp/assets", "www/assets/")
   eleventyConfig.addPassthroughCopy("./src/images", "./images/")
+  // eleventyConfig.addPassthroughCopy("./src/js", "www/js/")
 
   // eleventy img
   //

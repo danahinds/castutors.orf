@@ -1,13 +1,13 @@
 {
-  "name": "first-paint-uikit",
+  "name": "fp-pages",
   "version": "0.0.1",
   "config": {
-    "name": "DSP.KIT",
+    "name": "A UI toolkit for building web-apps using First Paint and Eleventy ",
     "stylesheets": [
       ""
     ]
   },
-  "description": "First paint apps",
+  "description": "FP Pages",
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
@@ -19,7 +19,8 @@
     "trash": "trash www/**/**.*",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
     "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
-    "build-parcel": "parcel build src/sass/styles.js --no-content-hash --out-dir src/styles/",
+    "build:parcel": "parcel build src/js/*.js --no-content-hash --out-dir www/js",
+    "watch:js": "parcel watch src/js/*.js --out-dir www/js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -51,7 +52,7 @@
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
-    "@shawnsandy/first-paint": "^0.7.1",
+    "@shawnsandy/first-paint": "^0.8.0",
     "@shawnsandy/ideas": "^0.1.22",
     "@shawnsandy/mix": "^0.10.12",
     "html-minifier": "^4.0.0",
