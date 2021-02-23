@@ -6,8 +6,6 @@ summary: "Test Summary "
 ---
 ### Subtitle
 
-
-
-![](/src/images/11ty-images.png)
+![test](/images/11ty-images.png)
 
 Some content in markdown, this post is created using markdown syntax, you can use either `markdown` or `html` for creating your posts/pages...
