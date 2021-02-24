@@ -9,13 +9,10 @@ eleventyNavigation:
 
 {% for content in collections.contents | reverse %}
 <article>
-  <h3>
+  <h3 id="{{ content.data.title | slug}}">
     <a href="{{ content.url }}"> {{ content.data.title }} </a>
   </h3>
   <p>{{ content.data.summary }}</p>
   <hr />
-  <aside>
-    {{content.data.category }} {{ content.data.tags }} {{ content.date }}
-  </aside>
 </article>
 {% endfor %}
