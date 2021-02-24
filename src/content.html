@@ -1,0 +1,21 @@
+---
+layout: page.njk
+title: "Content / Info pages"
+tags: page
+eleventyNavigation:
+  key: Articles
+  order: 1
+---
+
+{% for content in collections.contents | reverse %}
+<article>
+  <h3>
+    <a href="{{ content.url }}"> {{ content.data.title }} </a>
+  </h3>
+  <p>{{ content.data.summary }}</p>
+  <hr />
+  <aside>
+    {{content.data.category }} {{ content.data.tags }} {{ content.date }}
+  </aside>
+</article>
+{% endfor %}

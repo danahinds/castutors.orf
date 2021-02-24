@@ -1,0 +1,19 @@
+---
+layout: page.njk
+title: "Recent posts"
+tags: page
+eleventyNavigation:
+  key: Posts
+  order: 2
+---
+
+{% for post in collections.posts | reverse %}
+<article>
+  <h3>
+    <a href="{{ post.url }}"> {{ post.data.title }} </a>
+  </h3>
+  <p>{{ post.data.summary }}</p>
+  <hr />
+  <aside>{{post.data.category }} {{ post.data.tags }} {{ post.date }}</aside>
+</article>
+{% endfor %}

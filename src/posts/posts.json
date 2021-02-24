@@ -1,8 +1,6 @@
 {
   "layout": "page.njk",
   "title": "Content Page",
-  "tags": [
-    "content"
-  ],
+  "tags": "posts",
   "scripts": []
 }
