@@ -2,9 +2,10 @@
 title: Test CMS
 date: 2021-02-23T00:16:11.432Z
 author: Editor
-summary: Interactively develop emerging best practices and open-source alignments. Quickly envisioneer superior best practices without high-payoff technology. Efficiently procrastinate empowered value through web-enabled internal or "organic" sources. Conveniently initiate customer directed strategic theme areas with high-payoff bandwidth. Uniquely recaptiualize cross-media paradigms with unique interfaces.
+summary: Interactively develop emerging best practices and open-source alignments. Quickly envisioneer superior best practices without high-payoff technology. Efficiently procrastinate empowered value through web-enabled internal or "organic" sources. Conveniently initiate customer directed strategic theme areas with high-payoff bandwidth.
 ---
-![](/images/aem-pr-request.jpg)
+
+![cover-img](/img/aem-pr-request.jpg)
 
 Interactively develop emerging best practices and open-source alignments. Quickly envisioneer superior best practices without high-payoff technology. Efficiently procrastinate empowered value through web-enabled internal or "organic" sources. Conveniently initiate customer directed strategic theme areas with high-payoff bandwidth. Uniquely recaptiualize cross-media paradigms with unique interfaces.
 

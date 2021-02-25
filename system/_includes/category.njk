@@ -1,0 +1,17 @@
+{% extends "page.njk" %}
+<!--  -->
+{% block content %}
+<!--  -->
+<section>
+  {% for content in collections[category]| reverse %}
+  <article>
+    <h3 id="{{ content.data.title | slug }}">
+      <a href="{{ content.url }}"> {{ content.data.title }} </a>
+    </h3>
+    <p>{{ content.data.summary }}</p>
+    <hr />
+  </article>
+  {% endfor %}
+</section>
+<!--  -->
+{% endblock %}

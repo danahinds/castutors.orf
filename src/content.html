@@ -2,17 +2,10 @@
 layout: page.njk
 title: "Content / Info pages"
 tags: page
+category: contents
 eleventyNavigation:
   key: Articles
   order: 1
 ---
 
-{% for content in collections.contents | reverse %}
-<article>
-  <h3 id="{{ content.data.title | slug}}">
-    <a href="{{ content.url }}"> {{ content.data.title }} </a>
-  </h3>
-  <p>{{ content.data.summary }}</p>
-  <hr />
-</article>
-{% endfor %}
+{% include 'partials/category.njk' %}
