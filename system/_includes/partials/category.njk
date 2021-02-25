@@ -1,0 +1,14 @@
+{% for content in collections[category] | reverse %}
+<article>
+  <h3 id="{{ content.data.title | slug }}">
+    <a href="{{ content.url }}">{{ content.data.title }}</a>
+  </h3>
+  <p>{{ content.data.summary }}</p>
+  <div>
+    <a href="{{ content.url }}" role="button">
+      <em>Continue reading</em>
+    </a>
+  </div>
+  <hr />
+</article>
+{% endfor %}
