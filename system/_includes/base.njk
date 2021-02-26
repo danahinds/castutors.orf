@@ -1,32 +1,6 @@
-{% extends "_Layout.njk" %} {% block head %}
-
-<title>{{ settings.title }} | {{ title }}</title>
-<!-- settings style -->
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-  rel="stylesheet"
-/>
-<script
-  src="https://kit.fontawesome.com/e2ffdf4c70.js"
-  crossorigin="anonymous"
-></script>
-{% for styles in settings.styles %}
-<link href="{{ styles }}" rel="stylesheet" />
-{% endfor %}
-<!-- custom stylesheets -->
-{% if stylesheets %} {% for style in stylesheets %}
-<link rel="stylesheet" href="{{ style }}" />
-{% endfor %} {% endif %}
-<link rel="stylesheet" href="/css/styles.css" />
-<link rel="stylesheet" href="/css/elements.css" />
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css"
-/>
-{% endblock %}
-
+{% extends "_Layout.njk" %}
+<!-- head -->
+{% block head %}{{ super() }} {% endblock %}
 <!-- cover -->
 {% block cover %} {% endblock %}
 <!-- content -->
