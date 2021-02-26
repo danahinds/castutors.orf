@@ -1,5 +1,5 @@
 {
-  "title": "11ty.XD",
+  "title": "First.Paint Pages",
   "url": "https://proideas.dev/",
   "description": "",
   "feed": {
@@ -12,10 +12,6 @@
     "name": "Shawn Sandy",
     "email": "shawnsandy@proideas.dev"
   },
-  "styles": [
-    "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap"
-  ],
-  "scripts": [
-
-  ]
+  "styles": [],
+  "scripts": []
 }

@@ -1,5 +1,6 @@
 {% for content in collections[category] | reverse %}
 <article>
+  <small> Posted: {{ content.date.toDateString() }} </small>
   <h3 id="{{ content.data.title | slug }}">
     <a href="{{ content.url }}">{{ content.data.title }}</a>
   </h3>

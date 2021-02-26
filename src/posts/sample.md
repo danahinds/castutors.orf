@@ -1,6 +1,5 @@
 ---
 title: Sample markdown post
-date: 2021-02-23T00:23:25.216Z
 author: Editor
 summary: "Test Summary "
 ---
