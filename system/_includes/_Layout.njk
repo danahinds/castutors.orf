@@ -12,16 +12,34 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <script
+      src="https://kit.fontawesome.com/e2ffdf4c70.js"
+      crossorigin="anonymous"
+    ></script>
 
     <meta name="description" content="{{ pkg.description }}" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- uncomment for source code -->
+    <!-- <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css"
+/> -->
     {% block head %}
     <title>{{ metadata.title }} | {{ metadata.description }}</title>
     <!-- custom stylesheets -->
-    {% if stylesheets %} {% for style in stylesheets %}
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/elements.css" />
+    {% for styles in settings.styles %}
+    <link href="{{ styles }}" rel="stylesheet" />
+    {% endfor %} {% if stylesheets %} {% for style in stylesheets %}
     <link rel="stylesheet" href="{{ style }}" />
     {% endfor %} {% endif %} {% endblock %}
   </head>
