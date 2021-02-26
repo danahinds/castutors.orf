@@ -1,0 +1,17 @@
+{
+  "title": "First.Paint Pages",
+  "url": "https://proideas.dev/",
+  "description": "",
+  "feed": {
+    "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://proideas.dev/"
+  },
+  "author": {
+    "name": "Shawn Sandy",
+    "email": "shawnsandy@proideas.dev"
+  },
+  "styles": [],
+  "scripts": []
+}

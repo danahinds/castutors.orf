@@ -1,0 +1,8 @@
+{% extends "page.njk" %} {% block content %}
+<section>
+  <time datetime="{{ page.date }}">
+    Posted: {{ page.date.toDateString() }}
+  </time>
+</section>
+{{ super() }}
+{% endblock %}
