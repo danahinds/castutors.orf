@@ -51,7 +51,7 @@
     <!-- nav -->
     {% include "partials/nav.njk" %} {% endblock %}
     <!-- cover -->
-    {% block cover %} {% endblock %}
+    <header>{% block cover %} {% endblock %}</header>
     <!-- content -->
     {% block content %}
     {{ content | safe }}
