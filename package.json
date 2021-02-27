@@ -54,7 +54,7 @@
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
-    "@shawnsandy/first-paint": "^0.9.4",
+    "@shawnsandy/first-paint": "^0.9.6",
     "@shawnsandy/ideas": "^0.1.24",
     "@shawnsandy/mix": "^0.10.14",
     "html-minifier": "^4.0.0",
