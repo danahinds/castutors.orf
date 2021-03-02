@@ -5,9 +5,9 @@
 <section>
   {% for content in collections[category]| reverse %}
   <article>
-    <h3 id="{{ content.data.title | slug }}">
+    <!-- <h3 id="{{ content.data.title | slug }}">
       <a href="{{ content.url }}"> {{ content.data.title }} </a>
-    </h3>
+    </h3> -->
     <p>{{ content.data.summary }}</p>
     <hr />
   </article>
