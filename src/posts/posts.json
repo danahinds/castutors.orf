@@ -2,5 +2,6 @@
   "layout": "posts.njk",
   "title": "Content Page",
   "tags": "posts",
+  "showDate": true,
   "scripts": []
 }

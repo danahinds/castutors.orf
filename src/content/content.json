@@ -3,5 +3,6 @@
   "title": "Content Page",
   "tags": "contents",
   "category": "contents",
+  "showDate": true,
   "scripts": []
 }
