@@ -21,22 +21,24 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
+      media="all"
     />
-    <!-- uncomment for source code -->
-    <!-- <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css"
-/> -->
     {% block head %}
     <title>{{ settings.title }} | {{ title }}</title>
     <!-- custom stylesheets -->
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/elements.css" />
+    <link
+      rel="stylesheet"
+      href="/css/styles.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/elements.css"
+      rel="stylesheet"
+      media="all"
+    />
     {% for styles in settings.styles %}
     <link href="{{ styles }}" rel="stylesheet" />
     {% endfor %} {% if stylesheets %} {% for style in stylesheets %}
