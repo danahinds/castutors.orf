@@ -1,24 +1,23 @@
-## Introduction
+## FP.Pages
 
-##### DSP-Kit  Quick and Easy way to publish/share your Adobe XD [design systems packages](https://letsxd.com/vscode)  on the Web.
+FP.Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint a classless accessibility first CSS library and Eleventy the coolest static site generator on the planet.
 
+### Quick Start
 
- > The new Adobe XD extension for Visual Studio Code allows developers to visually map design sources, created in XD and available in Creative Cloud Libraries, to platform-specific code using design tokens. DesignOps teams will be able to create shareable Design System Packages (DSPs) that contain all the information developers need to consume while coding, including code snippets...
-
+- Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
+- Clone the new repo to your desktop `git clone repo-url`
+- Go to your new repo and clone to your desktop
+- Open the cloned repo and install the npm packages by running `npm i`
+- Once this is completed run `npm start` this will launch you dev-site in the default browser
+- Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
+- Read the docs for more info
 
 **TODO**
-
 
 - Official Launch
 - Full documentation
 - Examples
 - Component generator
-
-----
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41f4813d-97a1-4421-9cb2-6c260aa41348/deploy-status)](https://app.netlify.com/sites/xd-dspkit/deploys)
-
----
 
 #### Licence (MIT)
 
