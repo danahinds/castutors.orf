@@ -23,7 +23,7 @@
     "watch:parcel": "parcel build src/js/*.js --no-content-hash --out-dir src/js/min/",
     "watch:js": "parcel watch src/js/*.js --out-dir www/js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions"
+    "postinstall": "npx npm-force-resolutions"
   },
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
-    "@shawnsandy/first-paint": "^0.9.9",
+    "@shawnsandy/first-paint": "^0.10.0",
     "@shawnsandy/ideas": "^0.1.25",
     "@shawnsandy/mix": "^0.10.14",
     "html-minifier": "^4.0.0",

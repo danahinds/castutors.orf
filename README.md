@@ -5,12 +5,12 @@ FP.Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessib
 ### Quick Start
 
 - Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
-- Go to you new repo and clone to your desktop
+- Clone the new repo to your desktop `git clone repo-url`
+- Go to your new repo and clone to your desktop
 - Open the cloned repo and install the npm packages by running `npm i`
 - Once this is completed run `npm start` this will launch you dev-site in the default browser
 - Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
 - Read the docs for more info
-
 
 **TODO**
 
@@ -18,8 +18,6 @@ FP.Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessib
 - Full documentation
 - Examples
 - Component generator
-
-
 
 #### Licence (MIT)
 
