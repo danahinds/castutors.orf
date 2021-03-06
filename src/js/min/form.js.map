@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../form.js"],
-  "sourcesContent": ["// contact form/update 05/march/2020\r\ndocument.querySelector(\"form\").addEventListener(\"submit\", handleSubmit)\r\n\r\nconst handleSubmit = (e) => {\r\n  e.preventDefault()\r\n  let myForm = document.getElementById('contact-us')\r\n  let formData = new FormData(myForm)\r\n  fetch('/', {\r\n    method: 'POST',\r\n    headers: { \"Content-Type\": \"application/x-www-form-urlencoded\" },\r\n    body: new URLSearchParams(formData).toString()\r\n  }).then(() => console.log('Form successfully submitted')).catch((error) =>\r\n    alert(error))\r\n}\r\n"],
-  "mappings": "AACA,SAAS,cAAc,QAAQ,iBAAiB,SAAU,GAE1D,GAAM,GAAe,AAAC,GAAM,CAC1B,EAAE,iBACF,GAAI,GAAS,SAAS,eAAe,cACjC,EAAW,GAAI,UAAS,GAC5B,MAAM,IAAK,CACT,OAAQ,OACR,QAAS,CAAE,eAAgB,qCAC3B,KAAM,GAAI,iBAAgB,GAAU,aACnC,KAAK,IAAM,QAAQ,IAAI,gCAAgC,MAAM,AAAC,GAC/D,MAAM",
-  "names": []
-}

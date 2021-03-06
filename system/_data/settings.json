@@ -13,5 +13,7 @@
     "email": "shawnsandy@proideas.dev"
   },
   "styles": [],
-  "scripts": []
+  "scripts": [
+    "./js/min/index.min.js"
+  ]
 }

@@ -11,7 +11,7 @@
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
-    "start": "run-s clean scss  && run-p 11ty watch:*",
+    "start": "run-s clean scss js && run-p 11ty watch:*",
     "serve": "eleventy --serve --incremental",
     "11ty": "eleventy --serve",
     "build": "run-s build:* && eleventy",
@@ -20,9 +20,9 @@
     "scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
     "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
-    "watch:parcel": "parcel build src/js/*.js --no-content-hash --out-dir src/js/min/",
-    "watch:esbuild": "esbuild src/js/index.js src/js/form.js --bundle --minify --sourcemap --outdir=src/js/min/ --format=esm --watch",
-    "watch-js": "parcel watch src/js/*.js --out-dir www/js",
+    "js": "babel src/js/*.js -d src/js/min --minified --out-file-extension .min.js",
+    "watch:js": "babel src/js/*.js -d src/js/min --minified --out-file-extension .min.js -w",
+    "watch-js": "parcel watch src/js/*.js --out-dir www/js/min",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -54,6 +54,9 @@
     "@11ty/eleventy-img": "^0.8.0",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
     "@shawnsandy/first-paint": "^0.10.3",
     "@shawnsandy/ideas": "^0.1.25",
     "@shawnsandy/mix": "^0.10.14",
