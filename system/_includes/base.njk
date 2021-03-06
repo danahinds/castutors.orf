@@ -7,9 +7,9 @@
 {% block content %}
 <main>
   <section>
-    {% if showDate %}
+    {% if showDate %} Posted:
     <time datetime="{{ page.date }}">
-      Posted: {{ page.date.toDateString() }}
+      {{ page.date.toDateString() }}
     </time>
     {% endif %}
     {{ content | safe }}
