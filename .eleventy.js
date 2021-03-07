@@ -71,7 +71,6 @@ module.exports = function (eleventyConfig) {
    * Plugin @shawnsandy/ideas
    */
 
-  // eleventyConfig.addPlugin(require("@shawnsandy/ideas", {siteMap: ["**/*.njk", "apps/**/*.html"];})); // siteMap defines directory to include
 
   eleventyConfig.addPlugin(require("@shawnsandy/ideas/eleventy"))
 
