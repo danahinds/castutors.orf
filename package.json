@@ -20,9 +20,8 @@
     "scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
     "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
-    "js": "babel src/js/scripts/ -d src/js/min --minified --out-file-extension .min.js",
-    "watch:js": "babel src/js/scripts/ -d src/js/min --out-file-extension .min.js  --minified --source-maps --watch",
-    "watch-js": "parcel watch src/js/*.js --out-dir www/js/min",
+    "js": "babel src/js/ -d src/js/min --minified --out-file-extension .min.js",
+    "watch:js": "babel src/js/ -d src/js/min --out-file-extension .min.js  --minified --source-maps --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
