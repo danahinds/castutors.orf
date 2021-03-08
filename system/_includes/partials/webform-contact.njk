@@ -1,0 +1,49 @@
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input
+    type="hidden"
+    name="apikey"
+    value="d1ee3a5e-b148-4264-a8b2-b0e68c6b39c1"
+  />
+
+  <div>
+    <label for="name"> <em>Name</em></label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      autocomplete="name"
+      placeholder="Your name"
+      title="Please enter your name"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="email"> <em>Email</em> </label>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      autocomplete="email"
+      placeholder="Your email address"
+      title="The domain portion of the email address is invalid (the portion after the @)."
+      required
+    />
+  </div>
+  <div>
+    <label for="message"> <em>Message</em> </label>
+    <textarea
+      name="message"
+      id="message"
+      placeholder="Write your message here"
+      rows="7"
+      required
+    ></textarea>
+  </div>
+  <input
+    type="hidden"
+    name="redirect"
+    value="https://fp-pages.pages.dev/thank-you/"
+  />
+  <button type="submit">Submit Form</button>
+</form>
