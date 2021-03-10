@@ -38,9 +38,9 @@ strong {
     font-size: .9rem;
 
     code {
-      &.language-env {
-        color: rgb(59, 59, 59);
-      }
+      color: rgb(59, 59, 59);
+
+      &.language-env {}
     }
   }
 }
