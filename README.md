@@ -1,23 +1,35 @@
-## FP.Pages
+## FP. Pages
 
->FP.Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS a classless, accessibility first CSS library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
+> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS a classless, accessibility first CSS library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
 
 ### Quick Start
 
-- Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
-- Clone the new repo to your desktop `git clone repo-url`
-- Go to your new repo and clone to your desktop
-- Open the cloned repo and install the npm packages by running `npm i`
-- Once this is completed run `npm start` this will launch you dev-site in the default browser
-- Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
-- Read the docs for more info
+* Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
+* Clone the new repo to your desktop `git clone repo-url`
+* Go to your new repo and clone to your desktop
+* Open the cloned repo and install the npm packages by running `npm i`
+* Once this is completed run `npm start` this will launch you dev-site in the default browser
+* Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
+* Read the docs for more info
+
+### Config
+
+**ENV Variables**
+
+``` env
+NODE_ENV=development
+MAP_URL=Sitemap: https://www.sites.dev/sitemap.xml
+CONTACT_EMAIL: shawnsandy04@gmail.com
+WEBFORM_SUCCESS: https://web3forms.com/success
+NETLIFY_SUCCESS: https://web3forms.com/success
+```
 
 **TODO**
 
-- Official Launch
-- Full documentation
-- Examples
-- Component generator
+* Official Launch
+* Full documentation
+* Examples
+* Component generator
 
 #### Licence (MIT)
 

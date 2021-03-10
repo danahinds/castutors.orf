@@ -9,6 +9,7 @@ a[role=button]>em {
   filter: contrast(1.15);
 }
 
+
 [aria-label=feature] {
 
   ul {
@@ -23,5 +24,17 @@ a[role=button]>em {
 
   blockquote {
     padding: 3rem 0;
+  }
+
+  pre {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: whitesmoke;
+    line-height: 1.8;
+    border-radius: 1rem;
+
+    code.language-env {
+      color: rgb(59, 59, 59);
+    }
   }
 }
