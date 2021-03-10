@@ -9,6 +9,9 @@ a[role=button]>em {
   filter: contrast(1.15);
 }
 
+strong {
+  font-weight: 500;
+}
 
 [aria-label=feature] {
 
@@ -32,9 +35,12 @@ a[role=button]>em {
     background-color: whitesmoke;
     line-height: 1.8;
     border-radius: 1rem;
+    font-size: .9rem;
 
-    code.language-env {
-      color: rgb(59, 59, 59);
+    code {
+      &.language-env {
+        color: rgb(59, 59, 59);
+      }
     }
   }
 }
