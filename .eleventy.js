@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setQuietMode(true)
 
   eleventyConfig.addWatchTarget("./src/sass/")
-  eleventyConfig.addWatchTarget("./README.md")
+  eleventyConfig.addWatchTarget("../README.md")
   eleventyConfig.addWatchTarget("./src/js/")
   eleventyConfig.addPassthroughCopy("./src/css", "www/css/")
   eleventyConfig.addPassthroughCopy("./system/dsp/assets", "www/assets/")
@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./img")
   eleventyConfig.addPassthroughCopy("./src/js/min", "www/js")
   eleventyConfig.addPassthroughCopy("./src/admin")
+  // eleventyConfig.addPassthroughCopy("./src/robots.txt")
 
   // eleventy img
   //

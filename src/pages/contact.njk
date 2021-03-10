@@ -1,0 +1,31 @@
+---
+title: Contact Us
+scripts: ["/js/min/form.js"]
+eleventyNavigation:
+  key: Contact Us
+  order: 5
+---
+
+<h4>Contact Info</h4>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut delectus
+  accusamus commodi officia fugit sequi? Quisquam deleniti, atque natus
+  inventore exercitationem voluptatem eius facilis maxime itaque, esse molestias
+  recusandae.
+</p>
+
+{% if env.contact_provider == "netlify" %}
+<div>{% include 'partials/contact.njk' %}</div>
+{% elif env.contact_provider == "web3forms" %}
+<div>{% include 'partials/webform-contact.njk' %}</div>
+{% else %}
+<hr />
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut delectus
+  accusamus commodi officia fugit sequi? Quisquam deleniti, atque natus
+  inventore exercitationem voluptatem eius facilis maxime itaque, esse molestias
+  recusandae.
+</p>
+<hr />
+{% endif %}

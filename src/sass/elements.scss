@@ -8,3 +8,39 @@
 a[role=button]>em {
   filter: contrast(1.15);
 }
+
+strong {
+  font-weight: 500;
+}
+
+[aria-label=feature] {
+
+  ul {
+    margin-left: .9rem;
+    list-style: disc;
+    margin-bottom: 1rem;
+
+    li+li {
+      margin-top: .5rem;
+    }
+  }
+
+  blockquote {
+    padding: 3rem 0;
+  }
+
+  pre {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: whitesmoke;
+    line-height: 1.8;
+    border-radius: 1rem;
+    font-size: .9rem;
+
+    code {
+      color: rgb(59, 59, 59);
+
+      &.language-env {}
+    }
+  }
+}
