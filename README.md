@@ -15,7 +15,7 @@
 ### Config
 
 * Open the `sample.env` and save as `.env`
-* Edit/update the
+* Edit/update the env values to match your own
 
 **ENV Variables**
 
@@ -25,6 +25,45 @@ MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
 CONTACT_EMAIL=xxxxxx@yourdomain.com
 WEBFORM_SUCCESS=https://web3forms.com/success
 NETLIFY_SUCCESS=/thank-you
+```
+
+### Creating pages
+
+* While you can add a new page in any folder in the `src` directory the content, pages, post folders are available/configured for you out-of-box.
+* You can create pages with either HTML of MARKDOWN make sure to add the [front matter to the top of the page](https://www.11ty.dev/docs/data-frontmatter/) example below
+
+**Sample markdown post**
+
+``` markdown
+---
+title: Sample markdown post
+author: Editor
+summary: "Test Summary "
+---
+
+### Subtitle
+
+![test](/images/11ty-images.png)
+
+Some content in markdown, this post is created using `markdown`...
+
+```
+
+**Sample HTML post**
+
+``` html
+---
+title: Sample HTML
+summary: This is a summary of the article using html it should be easy
+---
+
+<h3>Subtitle</h3>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis asperiores
+    doloremque magnam mollitia fugiat alias explicabo eum! Dolorem obcaecati
+    laudantium commodi quis, facere aspernatur sapiente, molestias quidem
+    molestiae repellat adipisci?
+</p>
 ```
 
 **TODO**

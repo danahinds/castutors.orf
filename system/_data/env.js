@@ -6,6 +6,6 @@ module.exports = {
   map_url: process.env.MAP_URL || 'https//',
   contact_email: process.env.CONTACT_EMAIL || 'site@amce.inc',
   webforms_success: process.env.WEBFORMS_SUCCESS || 'https://web3forms.com/success',
-  netlify_success: process.env.NETLIFY_SUCCESS || '/thank-you/',
+  netlify_success: process.env.NETLIFY_SUCCESS || '/thank-you',
   contact_provider: process.env.CONTACT_PROVIDER || null
 }
