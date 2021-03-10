@@ -6,5 +6,5 @@ module.exports = {
   hello: process.env.HELLO || 'Hello not set, but hi, anyway 👋',
   node_env: process.env.NODE_ENV || null,
   map_url: process.env.MAP_URL || "https//",
-  contact_email: process.env.CONTACT_EMAIL || "me@amce.inc"
+  contact_email: process.env.CONTACT_EMAIL || "site@amce.inc"
 }
