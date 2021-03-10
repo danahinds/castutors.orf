@@ -14,14 +14,17 @@
 
 ### Config
 
+* Open the `sample.env` and save as `.env`
+* Edit/update the
+
 **ENV Variables**
 
 ``` env
 NODE_ENV=development
-MAP_URL=Sitemap: https://www.mysite.dev/sitemap.xml
-CONTACT_EMAIL: xxxxxx@yourdomain.com
-WEBFORM_SUCCESS: https://web3forms.com/success
-NETLIFY_SUCCESS: /thank-you
+MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
+CONTACT_EMAIL=xxxxxx@yourdomain.com
+WEBFORM_SUCCESS=https://web3forms.com/success
+NETLIFY_SUCCESS=/thank-you
 ```
 
 **TODO**

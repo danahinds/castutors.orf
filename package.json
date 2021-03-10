@@ -56,7 +56,7 @@
     "@babel/cli": "^7.13.0",
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
-    "@shawnsandy/first-paint": "^0.11.2",
+    "@shawnsandy/first-paint": "^0.11.3",
     "@shawnsandy/ideas": "^0.1.25",
     "@shawnsandy/mix": "^0.10.14",
     "babel-watch": "^7.4.1",
