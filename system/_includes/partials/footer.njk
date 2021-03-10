@@ -29,5 +29,13 @@
       facere, architecto at, soluta recusandae, iusto tenetur doloremque minima
       rem velit officiis error quod expedita officia amet provident dolorem.
     </p>
+
   </section>
+  {% if env.node_env == 'development' %}
+  <div style="text-align: center;">
+    <p>
+      {{env.node_env}}
+    </p>
+  </div>
+  {% endif %}
 </footer>
