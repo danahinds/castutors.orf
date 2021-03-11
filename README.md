@@ -15,9 +15,9 @@
 ### Config
 
 * Open the `sample.env` and save as `.env`
-* Edit/update the env values to match your own
+* Edit/update the env values to match your own see `.ENV example` (below)
 
-**ENV Variables**
+**. ENV example**
 
 ``` env
 NODE_ENV=development
