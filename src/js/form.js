@@ -1,4 +1,4 @@
-// contact form/update 2/22/21
+// contact form/update 05/march/2020
 document.querySelector("form").addEventListener("submit", handleSubmit)
 
 const handleSubmit = (e) => {

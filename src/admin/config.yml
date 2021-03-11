@@ -2,7 +2,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-local_backend: true
+# uncomment for local admin
+# local_backend: true
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow

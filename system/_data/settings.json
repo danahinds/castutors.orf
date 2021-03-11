@@ -1,7 +1,7 @@
 {
   "title": "First.Paint Pages",
   "url": "https://proideas.dev/",
-  "description": "",
+  "description": "FP.Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites",
   "feed": {
     "subtitle": "A UI toolkit for creating and managing design/style systems, pattern libraries, style-guides, etc",
     "filename": "feed.xml",
@@ -13,5 +13,7 @@
     "email": "shawnsandy@proideas.dev"
   },
   "styles": [],
-  "scripts": []
+  "scripts": [
+    "./js/min/index.min.js"
+  ]
 }

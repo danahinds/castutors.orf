@@ -11,19 +11,19 @@
   "main": "index.js",
   "scripts": {
     "startup": "run-p serve watch:*",
-    "start": "run-s clean scss  && run-p 11ty watch:*",
+    "start": "run-s clean scss js && run-p watch:* 11ty",
     "serve": "eleventy --serve --incremental",
     "11ty": "eleventy --serve",
-    "build": "run-s build:* && eleventy",
+    "build-11ty": "eleventy",
+    "build": "npm run build-11ty",
     "clean": "rm -rf www",
     "trash": "trash www/**/**.*",
     "scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
     "watch:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules --watch",
     "build:scss": "sass --style compressed src/sass:src/css/. --load-path=node_modules",
-    "watch:parcel": "parcel build src/js/*.js --no-content-hash --out-dir src/js/min/",
-    "watch:js": "parcel watch src/js/*.js --out-dir www/js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx npm-force-resolutions"
+    "js": "babel src/js/ -d src/js/min --minified --out-file-extension .min.js",
+    "watch:js": "babel src/js/ -d src/js/min --out-file-extension .min.js  --minified --source-maps --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -46,26 +46,27 @@
   },
   "homepage": "https://github.com/shawn-sandy/first-paint-apps#readme",
   "dependencies": {
-    "style-dictionary": "^2.10.2"
+    "style-dictionary": "^2.10.3"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
-    "@11ty/eleventy-img": "^0.8.0",
+    "@11ty/eleventy-img": "^0.8.2",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
-    "@shawnsandy/first-paint": "^0.9.4",
-    "@shawnsandy/ideas": "^0.1.24",
-    "@shawnsandy/mix": "^0.10.14",
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@shawnsandy/first-paint": "next",
+    "@shawnsandy/ideas": "next",
+    "@shawnsandy/mix": "next",
+    "babel-watch": "^7.4.1",
+    "esbuild": "^0.9.0",
     "html-minifier": "^4.0.0",
-    "lodash": "^4.17.20",
-    "npm-force-resolutions": "0.0.5",
+    "lodash": "^4.17.21",
+    "npm-force-resolutions": "0.0.10",
     "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.4",
-    "sass": "^1.32.7",
+    "sass": "^1.32.8",
     "trash-cli": "^4.0.0"
-  },
-  "resolutions": {
-    "node-forge": "0.10.0"
   }
 }

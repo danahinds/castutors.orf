@@ -1,6 +1,6 @@
 {% for content in collections[category] | reverse %}
 <article>
-  <time datetime="{{ page.date }}">
+  <time datetime="{{ page.date.toLocaleString() }}">
     Posted: {{ page.date.toDateString() }}
   </time>
   <h3 id="{{ content.data.title | slug }}">
