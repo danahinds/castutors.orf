@@ -67,6 +67,14 @@ summary: This is a summary of the article using html it should be easy
 </p>
 ```
 
+### Deployment
+
+Please see you hosting provider for deployment
+
+* [Netlify docs ](https://docs.netlify.com/) -- [site deploys](https://docs.netlify.com/site-deploys/overview/)
+* [Netlify Forms](https://docs.netlify.com/forms/setup/) -- configure your contact form
+* [Setting up ENV on netlify](https://docs.netlify.com/configure-builds/environment-variables/)
+
 **TODO**
 
 * Official Launch
