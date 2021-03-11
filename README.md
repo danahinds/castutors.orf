@@ -35,9 +35,10 @@ SECRET_KEYS=**********
 * Add the key to your `env.js` file : `secret_key: process.env.SECRET_KEY || null`
 * Display/use any where in your page key with `{{ env.secret_key }}`
 
- `/systen/_data/env.js`
-
 ``` JS
+/** system/_data/env.js **/
+require('dotenv').config()
+
 module.exports = {
     node_env: process.env.NODE_ENV || null,
     map_url: process.env.MAP_URL || 'https//',
@@ -101,6 +102,8 @@ Please see you hosting provider for deployment
 * Full documentation
 * Examples
 * Component generator
+
+-----
 
 #### Licence (MIT)
 
