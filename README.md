@@ -26,6 +26,27 @@ CONTACT_EMAIL=xxxxxx@yourdomain.com
 WEBFORM_SUCCESS=https://web3forms.com/success
 NETLIFY_SUCCESS=/thank-you
 CONTACT_PROVIDER=netlify
+SECRET_KEYS=**********
+```
+
+**Add/display ENV variables on pages**
+
+* Add a new key to your `env` file local `SECRET_KEY=********`
+* Add the key to your `env.js` file : `secret_key: process.env.SECRET_KEY || null`
+* Display/use any where in your page key with `{{ env.secret_key }}`
+
+``` JS
+/** system/_data/env.js **/
+require('dotenv').config()
+
+module.exports = {
+    node_env: process.env.NODE_ENV || null,
+    map_url: process.env.MAP_URL || 'https//',
+    contact_email: process.env.CONTACT_EMAIL || 'site@amce.inc',
+    webforms_success: process.env.WEBFORMS_SUCCESS || 'https://web3forms.com/success',
+    netlify_success: process.env.NETLIFY_SUCCESS || '/thank-you',
+    contact_provider: process.env.CONTACT_PROVIDER || null
+}
 ```
 
 ### Creating pages
@@ -67,12 +88,22 @@ summary: This is a summary of the article using html it should be easy
 </p>
 ```
 
+### Deployment
+
+Please see you hosting provider for deployment
+
+* [Netlify docs ](https://docs.netlify.com/) -- [site deploys](https://docs.netlify.com/site-deploys/overview/)
+* [Netlify Forms](https://docs.netlify.com/forms/setup/) -- configure your contact form
+* [Setting up ENV on netlify](https://docs.netlify.com/configure-builds/environment-variables/)
+
 **TODO**
 
 * Official Launch
 * Full documentation
 * Examples
 * Component generator
+
+-----
 
 #### Licence (MIT)
 

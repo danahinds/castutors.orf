@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setQuietMode(true)
 
   eleventyConfig.addWatchTarget("./src/sass/")
-  eleventyConfig.addWatchTarget("../README.md")
+  eleventyConfig.addWatchTarget("./README.md")
   eleventyConfig.addWatchTarget("./src/js/")
   eleventyConfig.addPassthroughCopy("./src/css", "www/css/")
   eleventyConfig.addPassthroughCopy("./system/dsp/assets", "www/assets/")
