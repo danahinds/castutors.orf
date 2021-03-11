@@ -26,6 +26,26 @@ CONTACT_EMAIL=xxxxxx@yourdomain.com
 WEBFORM_SUCCESS=https://web3forms.com/success
 NETLIFY_SUCCESS=/thank-you
 CONTACT_PROVIDER=netlify
+SECRET_KEYS=**********
+```
+
+**Add/display ENV variables on pages**
+
+* Add a new key to your `env` file local `SECRET_KEY=********`
+* Add the key to your `env.js` file : `secret_key: process.env.SECRET_KEY || null`
+* Display/use any where in your page key with `{{ env.secret_key }}`
+
+ `/systen/_data/env.js`
+
+``` JS
+module.exports = {
+    node_env: process.env.NODE_ENV || null,
+    map_url: process.env.MAP_URL || 'https//',
+    contact_email: process.env.CONTACT_EMAIL || 'site@amce.inc',
+    webforms_success: process.env.WEBFORMS_SUCCESS || 'https://web3forms.com/success',
+    netlify_success: process.env.NETLIFY_SUCCESS || '/thank-you',
+    contact_provider: process.env.CONTACT_PROVIDER || null
+}
 ```
 
 ### Creating pages
