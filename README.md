@@ -25,6 +25,7 @@ MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
 CONTACT_EMAIL=xxxxxx@yourdomain.com
 WEBFORM_SUCCESS=https://web3forms.com/success
 NETLIFY_SUCCESS=/thank-you
+CONTACT_PROVIDER=netlify
 ```
 
 ### Creating pages
