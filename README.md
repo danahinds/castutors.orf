@@ -1,6 +1,8 @@
-## FP. Pages
+## FP-Pages
 
-> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS classless library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
+> FP-Pages is a minimalist UI/Frontend Toolkit for building fast, lightweight, accesibility first static websites with [Eleventy](https://11ty.dex).
+
+Get started now by [deploying FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
 
 ### Quick Start
 
