@@ -1,6 +1,6 @@
 ## FP. Pages
 
-> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS a classless, accessibility first CSS library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
+> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS classless library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
 
 ### Quick Start
 
@@ -59,6 +59,7 @@ module.exports = {
 ``` markdown
 ---
 title: Sample markdown post
+date: 2021-12-01
 author: Editor
 summary: "Test Summary "
 ---
@@ -76,6 +77,7 @@ Some content in markdown, this post is created using `markdown`...
 ``` html
 ---
 title: Sample HTML
+date: 2021-12-01
 summary: This is a summary of the article using html it should be easy
 ---
 
