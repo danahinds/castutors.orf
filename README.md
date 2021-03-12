@@ -5,14 +5,13 @@
 ### Quick Start
 
 * Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
-* Clone the new repo to your desktop `git clone repo-url`
-* Go to your new repo and clone to your desktop
+* Clone your new repo to your desktop `git clone your-repo-url`
 * Open the cloned repo and install the npm packages by running `npm i`
-* Once this is completed run `npm start` this will launch you dev-site in the default browser
-* Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
+* Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
+* Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder; changes will will livereload in the browser.
 * Read the docs for more info
 
-### Config
+### ENV Config
 
 * Open the `sample.env` and save as `.env`
 * Edit/update the env values to match your own
@@ -103,7 +102,6 @@ Please see you hosting provider for deployment
 * Official Launch
 * Full documentation
 * Examples
-* Component generator
 
 -----
 
