@@ -1,18 +1,17 @@
 ## FP. Pages
 
-> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS a classless, accessibility first CSS library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
+> FP. Pages is a UI/Frontend Toolkit for building fast, modern, secure and accessible websites with FirstPaint CSS classless library and Eleventy simpler, blazingly fast static site generator. Netlifly integration for easy deploys to the web with a built in Netlify contact from and Netlify CMS.
 
 ### Quick Start
 
 * Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
-* Clone the new repo to your desktop `git clone repo-url`
-* Go to your new repo and clone to your desktop
+* Clone your new repo to your desktop `git clone your-repo-url`
 * Open the cloned repo and install the npm packages by running `npm i`
-* Once this is completed run `npm start` this will launch you dev-site in the default browser
-* Open the repo in your favorite editor and edit the content inside your `src` folder; changes will will livereload in the browser.
+* Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
+* Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder; changes will will livereload in the browser.
 * Read the docs for more info
 
-### Config
+### ENV Config
 
 * Open the `sample.env` and save as `.env`
 * Edit/update the env values to match your own see `.ENV example` (below)
@@ -59,6 +58,7 @@ module.exports = {
 ``` markdown
 ---
 title: Sample markdown post
+date: 2021-12-01
 author: Editor
 summary: "Test Summary "
 ---
@@ -76,6 +76,7 @@ Some content in markdown, this post is created using `markdown`...
 ``` html
 ---
 title: Sample HTML
+date: 2021-12-01
 summary: This is a summary of the article using html it should be easy
 ---
 
@@ -101,7 +102,6 @@ Please see you hosting provider for deployment
 * Official Launch
 * Full documentation
 * Examples
-* Component generator
 
 -----
 
