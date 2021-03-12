@@ -2,11 +2,13 @@
 
 > FP-Pages is a minimalist UI/Frontend Toolkit for building fast, lightweight, accesibility first static websites with [Eleventy](https://11ty.dev).
 
-## Deploy to Netlify
-
-Get started now by [deploying FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
-
 ### Quick Start
+
+##### Deploy to Netlify
+
+[Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
+
+##### Clone to github and customize
 
 * Go to the[ github repo](https://github.com/shawn-sandy/fp-pages) and click the **Use this template** button to clone the repo
 * Clone your new repo to your desktop `git clone your-repo-url`
