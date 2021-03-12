@@ -9,4 +9,4 @@
   CONTACT_EMAIL = "Contact email"
   FORM_PROVIDER = "contact form provider"
   CONTACT_SUCCESS = "/thank-you"
-  CONTACT_PROVIDER ="Contact from provider"
+  CONTACT_PROVIDER ="Contact form provider"
