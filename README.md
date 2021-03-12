@@ -1,6 +1,6 @@
 ## FP-Pages
 
-> FP-Pages is a minimalist UI/Frontend Toolkit for building fast, lightweight, accesibility first static websites with [Eleventy](https://11ty.dex).
+> FP-Pages is a minimalist UI/Frontend Toolkit for building fast, lightweight, accesibility first static websites with [Eleventy](https://11ty.dev).
 
 ## Deploy to Netlify
 
