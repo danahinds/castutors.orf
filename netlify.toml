@@ -5,7 +5,7 @@
 
 [template.environment]
   NODE_ENV =  "NODE environment"
-  MAP_URL = "Site map url (Sitemap https://www.sites.dev/sitemap.xml)"
+  MAP_URL = "Site map (Sitemap https://www.xxx.com/sitemap.xml)"
   CONTACT_EMAIL = "Contact email"
-  FORM_PROVIDER = "contact form provider (netlify/webforms)"
-  CONTACT_SUCCESS = "/thank-you"
+  FORM_PROVIDER = "Contact form provider (netlify/webforms)"
+  CONTACT_SUCCESS = "/thank-you" (thank you page)
