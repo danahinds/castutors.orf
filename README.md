@@ -6,14 +6,15 @@
 
 ### Quick Start
 
+****
 **Deploy to Netlify**
 
 * [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
-* Set the name of your repo Netlify will clone this git repository of choice
+* Set the name of your repo Netlify will clone to the git repository you linked to earlier
 * Set your [ENV variables (see more)](#env-config) this can be updates later
-* Click save and deploy button and watch NEtlify do its magic
+* Click save and deploy button and watch Netlify do its magic
 * Clone the repo Netlify to your desktop `git clone your-repo-url`
-* Open the cloned repo and install the npm packages by running `npm i`
+* Open the cloned repo in terminal and install the npm packages by running `npm i`
 * Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
 * Read the docs for more info (coming soon)
@@ -23,7 +24,7 @@
 * [Click this link to Generate/Clone](https://github.com/shawn-sandy/fp-pages/generate) the [FirstPage](https://github.com/shawn-sandy/fp-pages) repository from github.
 * Open the cloned repo and install the npm packages by running `npm i`
 * Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
-* Open your the local repo in VSCODE and start [editing](#creating-pages)
+* Open your the local repo in VSCODE/IDE and start [editing](#creating-pages)
 * Run `npm build` to output a production ready site in the `/www` folder
 
 ### ENV Config
@@ -49,6 +50,7 @@ SECRET_KEYS=**********
 
 ``` JS
 /** system/_data/env.js **/
+
 require('dotenv').config()
 
 module.exports = {
