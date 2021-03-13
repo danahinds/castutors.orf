@@ -1,12 +1,11 @@
 [build]
-  command = "npm run build"
+  command = "eleventy"
   publish = "www"
 
 
 [template.environment]
   NODE_ENV =  "NODE environment"
-  MAP_URL = "Site map url"
+  MAP_URL = "Site map url (Sitemap https://www.sites.dev/sitemap.xml)"
   CONTACT_EMAIL = "Contact email"
-  FORM_PROVIDER = "contact form provider"
+  FORM_PROVIDER = "contact form provider (netlify/webforms)"
   CONTACT_SUCCESS = "/thank-you"
-  CONTACT_PROVIDER ="Contact form provider"

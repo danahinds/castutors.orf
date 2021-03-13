@@ -1,12 +1,13 @@
 ## FP-Pages
 
-> FP-Pages is a minimalist UI/Frontend Toolkit for building fast, lightweight, accesibility first static websites with [Eleventy](https://11ty.dev).
+> FP-Pages is a minimalist UI/Frontend Toolkit for building lightweight, performance driven, accessibility first static websites powered by [Eleventy](https://11ty.dev) and [FirstPaint](https://www.npmjs.com/package/@shawnsandy/first-paint) a classless CSS/SCSS library.
 
 ### Quick Start
 
 ##### Deploy to Netlify
 
-[Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
+* [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
+* Read mote about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
 
 ##### Clone to github and customize
 
@@ -22,14 +23,13 @@
 * Open the `sample.env` and save as `.env`
 * Edit/update the env values to match your own see `.ENV example` (below)
 
-**. ENV example**
+****ENV** Variables**
 
 ``` env
 NODE_ENV=development
 MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
 CONTACT_EMAIL=xxxxxx@yourdomain.com
-WEBFORM_SUCCESS=https://web3forms.com/success
-NETLIFY_SUCCESS=/thank-you
+CONTACT_SUCCESS=/thank-you
 CONTACT_PROVIDER=netlify
 SECRET_KEYS=**********
 ```
