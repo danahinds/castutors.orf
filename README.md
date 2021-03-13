@@ -21,7 +21,7 @@
 ### ENV Config
 
 * Open the `sample.env` and save as `.env`
-* Edit/update the env values to match your own
+* Edit/update the env values to match your own see `.ENV example` (below)
 
 ****ENV** Variables**
 
@@ -29,8 +29,7 @@
 NODE_ENV=development
 MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
 CONTACT_EMAIL=xxxxxx@yourdomain.com
-WEBFORM_SUCCESS=https://web3forms.com/success
-NETLIFY_SUCCESS=/thank-you
+CONTACT_SUCCESS=/thank-you
 CONTACT_PROVIDER=netlify
 SECRET_KEYS=**********
 ```
