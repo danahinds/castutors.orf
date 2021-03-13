@@ -7,7 +7,8 @@
 ##### Deploy to Netlify
 
 * [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages)
-* Read mote about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
+* Read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
+* Goto step 2 of the Clone to github and customize section and continue
 
 ##### Clone to github and customize
 
