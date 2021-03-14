@@ -1,6 +1,6 @@
 ### Quick Start
 
-**Deploy to Netlify**
+##### Netlify
 
 * [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
 * Set the name of your repo Netlify will clone to the git repository you linked to earlier
@@ -12,7 +12,7 @@
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
 * Read the docs for more info (coming soon)
 
-**Deploy to you own server**
+##### Custom setup/deploy
 
 * [Click this link to Generate/Clone](https://github.com/shawn-sandy/fp-pages/generate) the [FirstPage](https://github.com/shawn-sandy/fp-pages) repository from github.
 * Open the cloned repo and install the npm packages by running `npm i`
