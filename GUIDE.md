@@ -2,17 +2,26 @@
 
 ##### Netlify
 
-* [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
-* Set the name of your repo Netlify will clone to the git repository you linked to earlier
-* Set your [ENV variables (see more)](#env-config) this can be updated later
+Netlify offers a intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps.
+ [Click here to deploy FP-Pages to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages).
+
+ You can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)
+
+*  [Click here to deploy FP-Pages to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/fp-pages).
+* Connect your Github/Gitlab repository account to Netlify and start the setup process
+* Now set the name of your new repo, Netlify will clone to the git repository you linked to earlier
+* Set your [ENV variables (see more)](#env-config) this can be updated later [ENV Netlify docs](https://docs.netlify.com/configure-builds/environment-variables/)
 * Click save and deploy button and watch Netlify do its magic
-* Clone the repo Netlify to your desktop `git clone your-repo-url`
+* Once your build/setup is completed you should be able to view your site on Netlify
+* Go to the repo your created earlier and clone the to your desktop `git clone your-repo-url`
 * Open the cloned repo in terminal and install the npm packages by running `npm i`
-* Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
+* Once this is completed run `npm start` this will launch a local copy of the website in the default browser
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
-* Read the docs for more info (coming soon)
+* Any change you make to you default branch will be deployed to your Netlify site on commit or completed pull request.
 
 ##### Custom setup/deploy
+
+To deploy to you own server follow the steps below.
 
 * [Click this link to Generate/Clone](https://github.com/shawn-sandy/fp-pages/generate) the [FirstPage](https://github.com/shawn-sandy/fp-pages) repository from github.
 * Open the cloned repo and install the npm packages by running `npm i`
@@ -22,8 +31,12 @@
 
 #### ENV Config
 
-* Open the `sample.env` and save as `.env`
-* Edit/update the env values to match your own see `.ENV example` (below)
+* Open the `sample.env` and save as `.env` and edit/update the env values to match your own see `.ENV example` (below)
+
+* NODE_ENV - set you node enviroment vairable
+* MAP_URL - set the url to your site map
+
+*
 
 ``` env
 #.env
