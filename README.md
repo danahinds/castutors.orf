@@ -16,7 +16,7 @@
 * Open the cloned repo in terminal and install the npm packages by running `npm i`
 * Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
-* [Read the docs for more info](/GUIDE.md) (coming soon)
+* [Read the docs for more info](./GUIDE.md) (coming soon)
 
 **TODO**
 
