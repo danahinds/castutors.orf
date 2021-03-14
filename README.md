@@ -1,9 +1,3 @@
-## FP-Pages
-
-> FP-Pages is a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack. Built in [Netlify](https://www.netlify.com/) and [Cloudflare pages *(coming soon)*](https://pages.cloudflare.com/) integration for easy server(less) deploys.  [FirstPaint](https://npmjs.org/package/@shawnsandy/first-paint) a lightweight classless 10kb/3kb(gzip) CSS/SCSS library for style and layout. Built with Eleventy [11ty.dev](https://11ty.dev) a simple and easy to use site generator.
-
-<!-- > [Eleventy](https://11ty.dev) and [FirstPaint](https://www.npmjs.com/package/@shawnsandy/first-paint) a classless CSS/SCSS library. -->
-
 ### Quick Start
 
 **Deploy to Netlify**
@@ -16,7 +10,7 @@
 * Open the cloned repo in terminal and install the npm packages by running `npm i`
 * Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
-* [Read the docs for more info](./GUIDE.md) (coming soon)
+* [Read the guide for more info](./GUIDE.md)
 
 **TODO**
 
