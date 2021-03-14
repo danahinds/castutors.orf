@@ -1,6 +1,6 @@
 [build]
-  command = "eleventy build"
   publish = "www"
+  command = "DEBUG=* eleventy"
 
 
 [template.environment]
