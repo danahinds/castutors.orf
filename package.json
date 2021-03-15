@@ -61,7 +61,6 @@
     "@shawnsandy/ideas": "next",
     "@shawnsandy/mix": "next",
     "babel-watch": "^7.4.1",
-    "esbuild": "^0.9.0",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.21",
     "npm-force-resolutions": "0.0.10",
