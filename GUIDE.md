@@ -1,4 +1,6 @@
-> FP-Pages is a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack. Built in Netlify and Cloudflare pages (coming soon) integration for easy server(less) deploys. FirstPaint a lightweight classless 10kb/3kb(gzip) CSS/SCSS library for style and layout. Built with Eleventy 11ty.dev a simple and easy to use site generator.
+### Introduction
+
+> FP-Pages is a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack. Built in [Netlify](https://www.netlify.com/), [Cloudflare pages](https://pages.cloudflare.com/) and [Azure coming soon](https://azure.microsoft.com/) integration for easy server(less) deploys.  [FirstPaint](https://npmjs.org/package/@shawnsandy/first-paint) a lightweight classless 10kb/3kb(gzip) CSS/SCSS library for style and layout. Built with Eleventy [11ty.dev](https://11ty.dev) a simple and easy to use site generator.
 
 ### Quick Start
 
@@ -112,7 +114,9 @@ summary: This is a summary of the article using html it should be easy
 </p>
 ```
 
-### Deployment
+----
+
+#### Deployment
 
 Please see you hosting provider for deployment
 
