@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-// const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const markdown = require("@shawnsandy/ideas/lib/markdown")
 const image = require("@11ty/eleventy-img")
@@ -55,18 +55,18 @@ module.exports = function (eleventyConfig) {
   })
 
 
-  // Minify our HTML
-  // eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-  //   if (outputPath.endsWith(".html")) {
-  //     let minified = htmlmin.minify(content, {
-  //       useShortDoctype: true,
-  //       removeComments: true,
-  //       collapseWhitespace: true,
-  //     })
-  //     return minified
-  //   }
-  //   return content
-  // })
+  //Minify our HTML
+  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+    if (outputPath.endsWith(".html")) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      })
+      return minified
+    }
+    return content
+  })
 
   /**
    * Plugin @shawnsandy/ideas
