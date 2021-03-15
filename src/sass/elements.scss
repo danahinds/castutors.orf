@@ -9,6 +9,12 @@ a[role=button]>em {
   filter: contrast(1.15);
 }
 
+header>section[role=banner] {
+  @media (min-width: 980px) {
+    max-width: 70%;
+  }
+}
+
 strong {
   font-weight: 500;
 }
