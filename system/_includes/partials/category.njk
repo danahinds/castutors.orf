@@ -1,7 +1,8 @@
 {% for content in collections[category] | reverse %}
 <article>
   <time datetime="{{ page.date.toLocaleString() }}">
-    Posted: {{ page.date.toDateString() }}
+    Posted: {{ content.date.toUTCString() }}
+    <!-- Posted: {{ hlp.11ty.formatDate(content.date.toUTCString()) }} -->
   </time>
   <h3 id="{{ content.data.title | slug }}">
     <a href="{{ content.url }}">{{ content.data.title }}</a>
