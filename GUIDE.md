@@ -1,4 +1,4 @@
-### Introduction
+### Start Guide
 
 > FP-Pages is a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack, with built in [Netlify](https://www.netlify.com/), [Cloudflare pages](https://pages.cloudflare.com/) and [Azure coming soon](https://azure.microsoft.com/) integration for easy server(less) deploys. A lightweight classless `10kb/3kb(gzip)` CSS/SCSS library for style and layout [FirstPaint](https://npmjs.org/package/@shawnsandy/first-paint) and  [Eleventy](https://11ty.dev) a simple and easy to use next-gen static site generator.
 
@@ -27,8 +27,9 @@ Netlify offers a intuitive Git-based workflow and powerful serverless platform t
 
 To deploy to you own server follow the steps below.
 
-* [Click this link to Generate/Clone](https://github.com/shawn-sandy/fp-pages/generate) the [FirstPage](https://github.com/shawn-sandy/fp-pages) repository from github.
-* Open the cloned repo and install the npm packages by running `npm i`
+* [Click here to Generate/Clone](https://github.com/shawn-sandy/fp-pages/generate) a copy of the Github repository template to your own Github repo.
+* Copy the cloned repo to your desktop `git clone your-repo-url`
+* Open the cloned repo in a terminal and run install the npm packages by running `npm i`
 * Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser
 * Open your the local repo in VSCODE/IDE and start [editing](#creating-pages)
 * Run `npm build` to output a production ready site in the `/www` folder
