@@ -46,21 +46,21 @@
   },
   "homepage": "https://github.com/shawn-sandy/first-paint-apps#readme",
   "dependencies": {
-    "@shawnsandy/first-paint": "next",
-    "@shawnsandy/ideas": "next",
-    "@shawnsandy/mix": "next",
-    "style-dictionary": "^2.10.3",
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
     "@11ty/eleventy-img": "^0.8.2",
     "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@shawnsandy/ideas": "next",
+    "dotenv": "^8.2.0",
     "html-minifier": "^4.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.0"
+    "style-dictionary": "^2.10.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
+    "@shawnsandy/first-paint": "^0.11.4",
     "babel-watch": "^7.4.1",
     "lodash": "^4.17.21",
     "npm-force-resolutions": "0.0.10",

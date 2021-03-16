@@ -4,6 +4,8 @@
 @include components.button-links();
 @include components.form-elements();
 @include components.header-addBorders();
+@include components.elements-pre();
+
 
 a[role=button]>em {
   filter: contrast(1.15);
@@ -33,21 +35,5 @@ strong {
 
   blockquote {
     padding: 3rem 0;
-  }
-
-  pre {
-    padding: 2rem;
-    margin: 2rem 0;
-    background-color: whitesmoke;
-    line-height: 1.8;
-    border-radius: 1rem;
-    font-size: .9rem;
-    overflow-x: auto;
-
-    code {
-      color: rgb(59, 59, 59);
-
-      &.language-env {}
-    }
   }
 }
