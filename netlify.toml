@@ -7,5 +7,5 @@
   NODE_ENV =  "NODE environment"
   SITE_MAP_URL = "https://www.xxx.com/sitemap.xml"
   CONTACT_EMAIL = "Contact email"
-  FORM_PROVIDER = "Contact form provider (netlify/webforms)"
-  CONTACT_SUCCESS = "/thank-you (page)"
+  FORM_PROVIDER = "Forms provider (netlify/web3forms)"
+  CONTACT_SUCCESS = "From(s) thank you page (/thank-you)"
