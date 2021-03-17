@@ -44,7 +44,7 @@ To deploy to you own server follow the steps below.
 *
 
 ``` env
-#.env
+# .env
 NODE_ENV=development
 MAP_URL='Sitemap: https://www.mysite.dev/sitemap.xml'
 CONTACT_EMAIL=xxxxxx@yourdomain.com
