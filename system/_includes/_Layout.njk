@@ -34,9 +34,9 @@
       media="all"
     />
     {% for styles in settings.styles %}
-    <link href="{{ styles }}" rel="stylesheet" />
+    <link href="{{ styles }}" rel="stylesheet" media="all"/>
     {% endfor %} {% if stylesheets %} {% for style in stylesheets %}
-    <link rel="stylesheet" href="{{ style }}" />
+    <link rel="stylesheet" href="{{ style }}" media="all"/>
     {% endfor %} {% endif %} {% endblock %}
   </head>
 
