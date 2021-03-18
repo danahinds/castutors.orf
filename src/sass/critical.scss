@@ -1,3 +1,1 @@
-@use '@shawnsandy/first-paint/src/components/reset.scss';
-@use '@shawnsandy/first-paint/src/components.scss'with($render-page: true,
-  $render-nav: true, $render-header: true);
+@use '@shawnsandy/first-paint/src/styles/critical.scss';
