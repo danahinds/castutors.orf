@@ -12,8 +12,12 @@
       src="https://kit.fontawesome.com/e2ffdf4c70.js"
       crossorigin="anonymous"
     ></script>
-
-    <link rel="stylesheet" href="/css/cover-page.css" />
+    <!-- load the critical styles inline -->
+    {% set css %} {% include "src/css/cover-page.css" %} {% endset %}
+    <!-- feed it through our cssmin filter to minify -->
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
   </head>
 
   <body>
