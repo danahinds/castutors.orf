@@ -1,8 +1,5 @@
 // @use replace @import with @use
 // as - defines the namespace for your imports
 // with - override  default variables
-@use "../system/dsp/dist/styledictionary/scss/variables.scss"as tokens;
 
-@use "@shawnsandy/first-paint/src/components.scss"with ($render-all: true, $render-page: false, $render-nav: false, $render-header: false);
-
-// @use "@shawnsandy/first-paint/src/index.scss";
+@use "@shawnsandy/first-paint/src/styles/main.scss"
