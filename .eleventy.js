@@ -4,6 +4,7 @@ const htmlmin = require("html-minifier")
 const pluginRss = require("@11ty/eleventy-plugin-rss")
 const markdown = require("@shawnsandy/ideas/lib/markdown")
 const image = require("@11ty/eleventy-img")
+const CleanCSS = require("clean-css")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 
 module.exports = function (eleventyConfig) {
@@ -54,6 +55,11 @@ module.exports = function (eleventyConfig) {
     return `<img src="${props.url}" alt="${alt}">`
   })
 
+  // css-min filter
+  eleventyConfig.addFilter("cssmin", (code) => {
+    return new CleanCSS({}).minify(code).styles
+  })
+
 
   //Minify our HTML
   eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
@@ -67,11 +73,6 @@ module.exports = function (eleventyConfig) {
     }
     return content
   })
-
-  /**
-   * Plugin @shawnsandy/ideas
-   */
-
 
   eleventyConfig.addPlugin(require("@shawnsandy/ideas/eleventy"))
 
