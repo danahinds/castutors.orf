@@ -39,4 +39,3 @@ form.addEventListener('submit', function (e) {
       }, 5000)
     })
 })
-
