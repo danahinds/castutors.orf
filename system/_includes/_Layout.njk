@@ -74,5 +74,7 @@
     {% if settings.scripts %} {% for src in settings.scripts %}
     <script src="{{ src }}"></script>
     {% endfor %} {% endif %}
+    <!-- recaptcha -->
+    {{ recaptcha or "no-captcha" }}
   </body>
 </html>

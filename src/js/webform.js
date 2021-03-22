@@ -39,3 +39,13 @@ form.addEventListener('submit', function (e) {
       }, 5000)
     })
 })
+
+grecaptcha.ready(function () {
+  grecaptcha.execute('YOUR_SITE_KEY_HERE', {
+    action: 'contact'
+  })
+    .then(function (token) {
+      recaptchaResponse.value = token
+    })
+})
+

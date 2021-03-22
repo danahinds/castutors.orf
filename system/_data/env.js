@@ -6,5 +6,6 @@ module.exports = {
   site_map_url: process.env.SITE_MAP_URL || 'https//site.com',
   contact_email: process.env.CONTACT_EMAIL || 'site@amce.inc',
   contact_success: process.CONTACT_SUCCESS || '/thank-you',
-  form_provider: process.env.FORM_PROVIDER || null
+  form_provider: process.env.FORM_PROVIDER || null,
+  recaptcha_key: process.env.RECAPTCHA_KEY || '00000'
 }
