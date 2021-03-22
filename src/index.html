@@ -21,46 +21,38 @@
   </head>
 
   <body>
-    <header>
+    <div data-cover>
       {% include 'partials/nav.njk' %}
-      <section role="banner">
-        <div>
-          <!-- <img src="img/fp.svg" alt="" /> -->
-          <h2>Lightweight, Fast, Accessible, Inclusive</h2>
+      <header>
+        <section role="banner">
+          <div>
+            <!-- <img src="img/fp.svg" alt="" /> -->
+            <h2>Lightweight, Fast, Accessible, Inclusive</h2>
+            <p>
+              <span>{{ settings.description }}</span>
+            </p>
+            <p>
+              <a
+                href="#"
+                role="button"
+                aria-label="Add word, cta action, to your button title"
+              >
+                <em>Get Started</em></a
+              >
+            </p>
+          </div>
+        </section>
+      </header>
+      <footer role="contentinfo">
+        <section>
           <p>
-            <span>{{ settings.description }}</span>
+            Copyright &copy; {{ hlp.11ty.year() }} {{ settings.author.name }}
+            All rights reserved
           </p>
-          <p>
-            <a
-              href="#"
-              role="button"
-              aria-label="Add word, cta action, to your button title"
-            >
-              <em>Get Started</em></a
-            >
-          </p>
-        </div>
-      </section>
-    </header>
-    <footer role="contentinfo">
-      <!-- <section>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
-        </div>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit?</p>
-        </div>
-      </section> -->
-      <section>
-        <p>
-          Copyright &copy; {{ hlp.11ty.year() }} {{ settings.author.name }} All
-          rights reserved
-        </p>
-      </section>
-    </footer>
+        </section>
+      </footer>
+    </div>
+
     <!-- <script src="index.js"></script> -->
   </body>
 </html>
