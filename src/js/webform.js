@@ -40,12 +40,3 @@ form.addEventListener('submit', function (e) {
     })
 })
 
-grecaptcha.ready(function () {
-  grecaptcha.execute('YOUR_SITE_KEY_HERE', {
-    action: 'contact'
-  })
-    .then(function (token) {
-      recaptchaResponse.value = token
-    })
-})
-
