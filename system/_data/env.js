@@ -8,5 +8,5 @@ module.exports = {
   contact_success: process.env.CONTACT_SUCCESS || '/thank-you',
   form_provider: process.env.FORM_PROVIDER || null,
   url: process.env.URL || null,
-  recaptcha_key: process.env.RECAPTCHA_KEY || '00000'
+  recaptcha_key: process.env.RECAPTCHA_KEY || null
 }
