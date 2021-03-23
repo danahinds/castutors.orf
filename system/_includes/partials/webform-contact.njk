@@ -7,7 +7,7 @@
   <input
     type="hidden"
     name="subject"
-    value="New Submission from : {{ settings.url }}"
+    value="New contact us submission from : {{ env.url }}"
   />
   <div>
     <label for="name"> <em>Name</em></label>
@@ -44,7 +44,11 @@
       required
     ></textarea>
   </div>
-  <input type="hidden" name="redirect" value="{{ env.contact_success }}" />
+  <input
+    type="hidden"
+    name="redirect"
+    value="{{ env.url }}{{ env.contact_success }}"
+  />
   <input type="hidden" name="recaptcha_response" id="recaptchaResponse" />
   <button type="submit">Submit Form</button>
 </form>
