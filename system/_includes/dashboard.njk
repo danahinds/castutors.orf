@@ -28,11 +28,16 @@
           data-nav
         >
           <section role="region" aria-label="dashboard-nav">
-            <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Blog</a></li>
+            {% set navPages = collections.all | eleventyNavigation %}
+              <ul>
+    {%- for entry in navPages %}
+      <li>
+        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+      </li>
+    {%- endfor %}
+            {% if env.node_env == 'development'  %}
+            <li><a href="/core-docs">Developer Docs</a></li>
+            {% endif %}
             </ul>
           </section>
           <section data-show-mobile role="region" aria-label="Close nav">
