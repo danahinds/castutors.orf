@@ -1,0 +1,7 @@
+{
+  "layout": "dashboard.njk",
+  "tags": "fp-docs",
+  "category": "fp-docs",
+  "showDate": true,
+  "scripts": []
+}
