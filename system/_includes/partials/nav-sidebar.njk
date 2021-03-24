@@ -23,6 +23,11 @@
   <section role="region" aria-label="dashboard-nav">
     {% set navPages = collections.all | eleventyNavigation %}
     <ul>
+      <li>
+        <strong>
+          Browse
+        </strong>
+        </li>
       {%- for entry in navPages %}
       <li>
         <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
@@ -36,7 +41,7 @@
       {% set docs = collections.developers %}
       <li>
         <strong>
-          <a href="/developers">DEVELOPERS</a>
+          DEVELOPMENT
         </strong>
       </li>
       {%- for doc in docs %}
