@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -12,7 +13,7 @@
     {% set css %} {% include "src/css/critical.css" %} {% endset %}
     <!-- feed it through our cssmin filter to minify -->
     <style>
-      {{ css | cssmin | safe }}
+    {{ css | cssmin | safe }}
     </style>
     <link rel="stylesheet" href="/css/dashboard.css" />
   </head>
@@ -25,19 +26,31 @@
           id="sidebar"
           role="navigation"
           aria-label="Main navigation"
-          data-nav
-        >
+          data-nav>
           <section role="region" aria-label="dashboard-nav">
             {% set navPages = collections.all | eleventyNavigation %}
-              <ul>
-    {%- for entry in navPages %}
-      <li>
-        <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
-      </li>
-    {%- endfor %}
-            {% if env.node_env == 'development'  %}
-            <li><a href="/core-docs">Developer Docs</a></li>
-            {% endif %}
+            <ul>
+              {%- for entry in navPages %}
+              <li>
+                <a href="{{ entry.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
+                  %}>{{ entry.title }}</a>
+              </li>
+              {%- endfor %}
+              <li></li>
+              {% set docs = collections.development %}
+              <li>
+                <strong>
+                  <a href="/core-docs/">Development</a>
+                </strong>
+              </li>
+              {%- for doc in docs %}
+              <li>
+                <a href="{{ doc.url | url }}" {% if entry.url==page.url %} data-current="current item" {% endif
+                  %}>
+                  {{ doc.data.title }}
+                </a>
+              </li>
+              {%- endfor %}
             </ul>
           </section>
           <section data-show-mobile role="region" aria-label="Close nav">
@@ -48,12 +61,10 @@
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   width="24"
-                  height="24"
-                >
+                  height="24">
                   <path fill="none" d="M0 0h24v24H0z" />
                   <path
-                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
-                  />
+                    d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
                 </svg>
               </span>
             </a>
@@ -68,16 +79,14 @@
                 role="button"
                 aria-label="Navigation button"
                 href="#sidebar"
-                data-sidebar-button
-              >
+                data-sidebar-button>
                 <small>
                   <span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
                       width="24"
-                      height="24"
-                    >
+                      height="24">
                       <path fill="none" d="M0 0h24v24H0z" />
                       <path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" />
                     </svg>
@@ -111,4 +120,5 @@
 
     <!-- <script src="index.js"></script> -->
   </body>
+
 </html>
