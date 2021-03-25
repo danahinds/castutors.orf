@@ -74,6 +74,14 @@ module.exports = function (eleventyConfig) {
     return content
   })
 
+  eleventyConfig.addCollection("developer", (collection) =>
+    collection.getFilteredByTags("developers").sort((a, b) => {
+      if (a.data.title > b.data.title) return -1
+      else if (a.data.title < b.data.title) return 1
+      else return 0
+    })
+  )
+
   eleventyConfig.addPlugin(require("@shawnsandy/ideas/eleventy"))
 
   eleventyConfig.addPlugin(pluginRss)
