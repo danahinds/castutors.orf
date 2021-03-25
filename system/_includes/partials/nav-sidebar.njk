@@ -38,7 +38,7 @@
         <hr>
       </li>
       {% if env.node_env == 'development' %}
-      {% set docs = collections.developers %}
+      {% set docs = collections.developer | reverse %}
       <li>
         <strong>
           <a href="/developers">DEVELOPER DOCS</a>
